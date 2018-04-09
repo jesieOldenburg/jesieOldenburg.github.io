@@ -1,0 +1,31 @@
+.mainh1 {
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: #e45b00;
+  padding-top: 100px;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 4rem;
+  position: relative; }
+
+#screen {
+  height: 300px;
+  background-color: #001440; }
+
+/* Nav elements */
+/* text content */
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 100px; }
+
+p {
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Abel', sans-serif;
+  text-indent: 25px;
+  line-height: 2em; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #3f6075;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  display: block;
+  margin: 10px;
+}
+
+.nav-ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+}
+
+.nav-item {
+  color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin: 15px;
+    text-decoration: none;
+}

@@ -1,24 +1,4 @@
-@import 'article';
-@import 'footer';
-@import 'nav';
+@import 'article', 'footer', 'nav', 'billboard';
 
-$color1: #3f6075;
 
-h1 {
-    text-align: center;
-    width:840px;
-    margin:15px;
-    padding:15px;
-    height:100px;
-    font-size:56px;
-    color:#26547c;
-}
-
-.header-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #82ede6;
-    height: 300px;
-}
 

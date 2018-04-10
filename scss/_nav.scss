@@ -1,12 +1,14 @@
+@import 'colors';
+
 .navbar {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background-color: #3f6075;
+  background-color: $midnight;
 }
 
 .navbar-brand {
-  color: #ffffff;
+  color: $cloud;
   display: block;
   margin: 10px;
 }
@@ -18,11 +20,11 @@
 }
 
 .nav-item {
-  color: #ffffff;
+  color: $cloud;
 }
 
 .nav-link {
-    color: #ffffff;
+    color: $cloud;
     margin: 15px;
     text-decoration: none;
 }

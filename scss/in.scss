@@ -1,46 +1,23 @@
+@import 'footer', 'nav', 'billboard';
 $color-1: #e45b00;
 $color-2: #001440;
 $color-3: #d84315;
 
-.mainh1 {
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: $color-1;
-    padding-top: 100px;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 4rem;
-    position: relative;
-    // background-color: $color-2;
-}
-
-#screen {
-    height: 300px;
-    background-color: $color-2;
-}
-
-
-
-/* Nav elements */
-
-
-
 
 /* text content */
 
-h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-top: 100px;
-}
-
-p {
-    // border: 1px solid gray;
+.main-txt-container {
+    border: 1px solid gray;
     font-size: 20px;
     width: 60%;
     margin: auto;
-    padding: 10px;
-    font-family: 'Abel', sans-serif;
+    padding: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-indent: 25px;
     line-height: 2em;
+}
+
+.text-heading {
+    text-align: center;
+    margin: 20px;
 }

@@ -1,6 +1,31 @@
+/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
+/* HEX */
+/* RGB */
 .article-master-box {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
+
+.article-title {
+  font-size: 36px; }
+
+.article-preview-card {
+  width: 60%;
+  border: 1px solid #031927;
+  padding: 25px;
+  margin: 100px; }
+
+.preview-intro-block {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  padding: 10px;
+  border: 5px double #031927;
+  border-top: none;
+  border-right: none; }
+
+.article-breifing {
+  text-align: center; }
 
 .article-card-clean {
   width: 1000px;
@@ -10,10 +35,6 @@
 
 .article-master-box {
   flex-flow: column wrap; }
-
-p {
-  padding: 0px;
-  width: 600px; }
 
 .article-clean {
   color: #56585b;
@@ -94,9 +115,12 @@ p {
   display: flex;
   justify-content: center; }
 
+/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
+/* HEX */
+/* RGB */
 .footer-basic {
   padding: 40px 0;
-  background-color: #ffffff;
+  background-color: #031927;
   color: #4b4c4d; }
 
 .footer-basic ul {
@@ -130,7 +154,7 @@ p {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #ccc;
+  border: 1px solid #9DD1F1;
   margin: 0 8px;
   color: inherit;
   opacity: 0.75; }
@@ -145,14 +169,17 @@ p {
   color: #aaa;
   margin-bottom: 0; }
 
+/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
+/* HEX */
+/* RGB */
 .navbar {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background-color: #3f6075; }
+  background-color: #031927; }
 
 .navbar-brand {
-  color: #ffffff;
+  color: #C8E0F4;
   display: block;
   margin: 10px; }
 
@@ -162,27 +189,31 @@ p {
   list-style-type: none; }
 
 .nav-item {
-  color: #ffffff; }
+  color: #C8E0F4; }
 
 .nav-link {
-  color: #ffffff;
+  color: #C8E0F4;
   margin: 15px;
   text-decoration: none; }
 
+/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
+/* HEX */
+/* RGB */
 h1 {
   text-align: center;
-  width: 840px;
+  width: 70%;
   margin: 15px;
   padding: 15px;
-  height: 100px;
-  font-size: 56px;
-  color: #26547c; }
+  height: auto;
+  font-size: 76px;
+  color: #031927; }
 
 .header-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #82ede6;
-  height: 300px; }
+  background-color: #C8E0F4;
+  height: 500px;
+  margin-bottom: 100px; }
 
 /*# sourceMappingURL=blog.css.map */

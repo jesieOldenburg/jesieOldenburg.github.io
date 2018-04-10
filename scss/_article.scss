@@ -1,6 +1,47 @@
+@import 'colors';
+
+%paragraph-standards {
+  padding: 0px;
+  width: 600px;
+  font-size: 16px;
+}
+
 %centered-flex-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+%secondary-title {
+  font-size: 36px;
+}
+
+
+// Article Preview Display************
+
+.article-preview-card {
+  width: 60%;
+  border: 1px solid $midnight;
+  padding: 25px;
+  margin: 100px;
+}
+
+.preview-intro-block {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  padding: 10px;
+  border: 5px double $midnight;
+  border-top: none;
+  border-right: none;
+}
+
+.article-title {
+  @extend %secondary-title;
+}
+
+.article-breifing {
+  text-align: center;
 }
 
 .article-card-clean {
@@ -13,11 +54,6 @@
 .article-master-box {
   @extend %centered-flex-container;
   flex-flow: column wrap;
-}
-
-p {
-  padding: 0px;
-  width: 600px;
 }
 
 .article-clean {

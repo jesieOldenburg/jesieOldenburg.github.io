@@ -18,11 +18,15 @@
 .preview-intro-block {
   display: flex;
   flex-flow: column wrap;
-  align-items: flex-start;
+  align-content: space-between;
   padding: 10px;
-  border: 5px double #031927;
+  border: 2px solid #031927;
   border-top: none;
-  border-right: none; }
+  border-right: none;
+  background-color: #9DD1F1; }
+
+.article-title {
+  margin: 5px; }
 
 .article-breifing {
   text-align: center; }

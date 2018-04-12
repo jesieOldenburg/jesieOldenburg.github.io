@@ -1,0 +1,30 @@
+@import 'colors';
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: $midnight;
+}
+
+.navbar-brand {
+  color: $cloud;
+  display: block;
+  margin: 10px;
+}
+
+.nav-ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+}
+
+.nav-item {
+  color: $cloud;
+}
+
+.nav-link {
+    color: $cloud;
+    margin: 15px;
+    text-decoration: none;
+}

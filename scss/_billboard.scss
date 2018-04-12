@@ -1,0 +1,21 @@
+// Handles the Heading "Billboard" display, and the h1.....
+@import 'colors';
+
+h1 {
+    text-align: center;
+    width: 70%;
+    margin:15px;
+    padding:15px;
+    height: auto;
+    font-size:76px;
+    color: $midnight;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $cloud;
+    height: 500px;
+    margin-bottom: 100px;
+}

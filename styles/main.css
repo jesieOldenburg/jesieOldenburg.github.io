@@ -1,0 +1,117 @@
+/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
+/* HEX */
+/* RGB */
+.footer-basic {
+  padding: 40px 0;
+  background-color: #031927;
+  color: #4b4c4d; }
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic li {
+  padding: 0 10px; }
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic ul a:hover {
+  opacity: 1; }
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #9DD1F1;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic .social > a:hover {
+  opacity: 0.9; }
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0; }
+
+/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
+/* HEX */
+/* RGB */
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #031927; }
+
+.navbar-brand {
+  color: #C8E0F4;
+  display: block;
+  margin: 10px; }
+
+.nav-ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none; }
+
+.nav-item {
+  color: #C8E0F4; }
+
+.nav-link {
+  color: #C8E0F4;
+  margin: 15px;
+  text-decoration: none; }
+
+/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
+/* HEX */
+/* RGB */
+h1 {
+  text-align: center;
+  width: 70%;
+  margin: 15px;
+  padding: 15px;
+  height: auto;
+  font-size: 76px;
+  color: #031927; }
+
+.header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C8E0F4;
+  height: 500px;
+  margin-bottom: 100px; }
+
+/* text content */
+.main-txt-container {
+  border: 1px solid gray;
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-indent: 25px;
+  line-height: 2em; }
+
+.text-heading {
+  text-align: center;
+  margin: 20px; }
+
+/*# sourceMappingURL=main.css.map */

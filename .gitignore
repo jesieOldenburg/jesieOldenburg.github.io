@@ -1,1 +1,8 @@
+lib/node_modules
+lib/.sass-cache
 .DS_Store
+css/styles.css.map
+in.scssc
+main.css.map
+blog.css.map
+package-lock.json

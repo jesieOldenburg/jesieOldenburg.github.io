@@ -1,6 +1,3 @@
-/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
-/* HEX */
-/* RGB */
 .article-master-box {
   display: flex;
   justify-content: center;
@@ -11,7 +8,7 @@
 
 .article-preview-card {
   width: 60%;
-  border: 1px solid #031927;
+  border: 1px solid #908A81;
   padding: 25px;
   margin: 100px; }
 
@@ -20,10 +17,10 @@
   flex-flow: column wrap;
   align-content: space-between;
   padding: 10px;
-  border: 2px solid #031927;
+  border: 2px solid #908A81;
   border-top: none;
   border-right: none;
-  background-color: #9DD1F1; }
+  background-color: #F5F1EF; }
 
 .article-title {
   margin: 5px; }
@@ -35,14 +32,14 @@
   width: 1000px;
   margin: 50px;
   padding: 15px;
-  border: 2px solid #3f6075; }
+  border: 2px solid #908A81; }
 
 .article-master-box {
   flex-flow: column wrap; }
 
 .article-clean {
   color: #56585b;
-  background-color: #fff;
+  background-color: #AA9FA4;
   font-family: 'Lora', serif;
   font-size: 14px; }
 
@@ -59,7 +56,7 @@
   margin-top: 20px; }
 
 .article-clean .intro p {
-  color: #929292;
+  color: #211E26;
   font-size: 12px; }
 
 .article-clean .intro p .by {
@@ -72,7 +69,7 @@
   border-left: 1px solid #ddd; }
 
 .article-clean .intro p a {
-  color: #333;
+  color: #211E26;
   text-transform: uppercase;
   padding-left: 3px; }
 
@@ -119,13 +116,10 @@
   display: flex;
   justify-content: center; }
 
-/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
-/* HEX */
-/* RGB */
 .footer-basic {
   padding: 40px 0;
-  background-color: #031927;
-  color: #4b4c4d; }
+  background-color: #211E26;
+  color: #F5F1EF; }
 
 .footer-basic ul {
   padding: 0;
@@ -158,7 +152,7 @@
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #9DD1F1;
+  border: 1px solid #F5F1EF;
   margin: 0 8px;
   color: inherit;
   opacity: 0.75; }
@@ -170,20 +164,17 @@
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #aaa;
+  color: #light-accent;
   margin-bottom: 0; }
 
-/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
-/* HEX */
-/* RGB */
 .navbar {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background-color: #031927; }
+  background-color: #EA304D; }
 
 .navbar-brand {
-  color: #C8E0F4;
+  color: #F5F1EF;
   display: block;
   margin: 10px; }
 
@@ -193,31 +184,43 @@
   list-style-type: none; }
 
 .nav-item {
-  color: #C8E0F4; }
+  color: #F5F1EF; }
 
 .nav-link {
-  color: #C8E0F4;
+  color: #F5F1EF;
   margin: 15px;
   text-decoration: none; }
 
-/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
-/* HEX */
-/* RGB */
+/************ TEXT SHADOW PROPERTY SYNTAX------> 
+text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; 
+********/
 h1 {
-  text-align: center;
-  width: 70%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  width: 1013px;
   margin: 15px;
-  padding: 15px;
+  padding-top: 80px;
   height: auto;
-  font-size: 76px;
-  color: #031927; }
+  font-size: 104px;
+  color: #F5F1EF; }
+
+.header-description {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  line-height: 50px;
+  color: #F5F1EF;
+  margin: 5px 15px 20px 15px;
+  width: 750px;
+  font-size: 26px; }
 
 .header-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #C8E0F4;
-  height: 500px;
-  margin-bottom: 100px; }
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #211E26;
+  height: 700px;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=blog.css.map */

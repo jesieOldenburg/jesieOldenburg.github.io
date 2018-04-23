@@ -1,23 +1,70 @@
-@import 'footer', 'nav', 'billboard';
-$color-1: #e45b00;
-$color-2: #001440;
-$color-3: #d84315;
+@import 'footer', 'nav', 'billboard', 'colors', 'projects';
+$dark-shades: #211E26; 
+$dark-accent: #908A81;
+$primary-color: #EA304D;
+$light-accent: #AA9FA4;
+$light-shades: #F5F1EF;
 
+// ***********Content Blocks*************
+#landing-main-content-container {
+    display: flex;
+    flex-flow: column wrap;
 
-/* text content */
-
-.main-txt-container {
-    border: 1px solid gray;
-    font-size: 20px;
-    width: 60%;
-    margin: auto;
-    padding: 20px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-indent: 25px;
-    line-height: 2em;
 }
 
-.text-heading {
+.content-display-block {
+    margin: 50px 15px 150px 15px;
+    width: auto;
+}
+
+.block-side-text {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 200;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
+    padding: 25px;
+    max-width: 900px;
+    max-height: 220px;
+    color: $light-shades;
+    background-color: $dark-shades;
+    border: 2px solid $primary-color;
+    border-radius: 5%;
+    margin: 0px 0px -400px 0px;
+    box-shadow: -5px 3px 15px -1px $dark-shades;
+}
+
+.block-heading{
+    font-size: 78px;
+    text-align: center;
+    color: $primary-color;
+    margin-bottom: 120px;
+}
+
+.block-description-container {
+
+    background-color: $light-accent;
+    // width: 85%;
+    height: 400px;
+    box-shadow: -2px 5px 25px -1px $dark-shades;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.block-description {
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 46px;
+    line-height: 50px;
+    max-width: 78%;;
+    text-align: left;
+    margin-left: 80px;
+    color: $light-shades;
+}
+
+.case-headings {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 76px;
+    margin: 150px 0px 0px 15px;
 }

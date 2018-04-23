@@ -21,7 +21,7 @@
 
 .article-preview-card {
   width: 60%;
-  border: 1px solid $midnight;
+  border: 1px solid $dark-accent;
   padding: 25px;
   margin: 100px;
 }
@@ -31,10 +31,10 @@
   flex-flow: column wrap;
   align-content: space-between;
   padding: 10px;
-  border: 2px solid $midnight;
+  border: 2px solid $dark-accent;
   border-top: none;
   border-right: none;
-  background-color: $sky;
+  background-color: $light-shades;
 }
 
 .article-title {
@@ -50,7 +50,7 @@
   width: 1000px;
   margin: 50px;
   padding: 15px;
-  border: 2px solid #3f6075;
+  border: 2px solid $dark-accent;
 }
 
 .article-master-box {
@@ -60,7 +60,7 @@
 
 .article-clean {
   color:#56585b;
-  background-color:#fff;
+  background-color: $light-accent;
   font-family:'Lora', serif;
   font-size:14px;
 
@@ -81,7 +81,7 @@
 }
 
 .article-clean .intro p {
-  color:#929292;
+  color: $dark-shades;
   font-size:12px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .article-clean .intro p a {
-  color:#333;
+  color: $dark-shades;
   text-transform:uppercase;
   padding-left:3px;
 }

@@ -6,3 +6,5 @@ in.scssc
 main.css.map
 blog.css.map
 package-lock.json
+../mac-cli/
+mac-cli/

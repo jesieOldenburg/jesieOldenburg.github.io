@@ -1,10 +1,7 @@
-/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
-/* HEX */
-/* RGB */
 .footer-basic {
   padding: 40px 0;
-  background-color: #031927;
-  color: #4b4c4d; }
+  background-color: #211E26;
+  color: #F5F1EF; }
 
 .footer-basic ul {
   padding: 0;
@@ -37,7 +34,7 @@
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #9DD1F1;
+  border: 1px solid #F5F1EF;
   margin: 0 8px;
   color: inherit;
   opacity: 0.75; }
@@ -49,20 +46,17 @@
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #aaa;
+  color: #light-accent;
   margin-bottom: 0; }
 
-/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
-/* HEX */
-/* RGB */
 .navbar {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background-color: #031927; }
+  background-color: #EA304D; }
 
 .navbar-brand {
-  color: #C8E0F4;
+  color: #F5F1EF;
   display: block;
   margin: 10px; }
 
@@ -72,46 +66,184 @@
   list-style-type: none; }
 
 .nav-item {
-  color: #C8E0F4; }
+  color: #F5F1EF; }
 
 .nav-link {
-  color: #C8E0F4;
+  color: #F5F1EF;
   margin: 15px;
   text-decoration: none; }
 
-/* Coolors Exported Palette - coolors.co/ba1200-031927-9dd1f1-508aa8-c8e0f4 */
-/* HEX */
-/* RGB */
+/************ TEXT SHADOW PROPERTY SYNTAX------> 
+text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; 
+********/
 h1 {
-  text-align: center;
-  width: 70%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  width: 1013px;
   margin: 15px;
-  padding: 15px;
+  padding-top: 80px;
   height: auto;
-  font-size: 76px;
-  color: #031927; }
+  font-size: 104px;
+  color: #F5F1EF; }
+
+.header-description {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  line-height: 50px;
+  color: #F5F1EF;
+  margin: 5px 15px 20px 15px;
+  width: 750px;
+  font-size: 26px; }
 
 .header-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #C8E0F4;
-  height: 500px;
-  margin-bottom: 100px; }
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #211E26;
+  height: 700px;
+  margin-bottom: 30px; }
 
-/* text content */
-.main-txt-container {
-  border: 1px solid gray;
-  font-size: 20px;
-  width: 60%;
-  margin: auto;
-  padding: 20px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-indent: 25px;
-  line-height: 2em; }
-
-.text-heading {
+.case-headings {
+  color: #EA304D;
+  margin: -40px 0px 120px 15px;
   text-align: center;
-  margin: 20px; }
+  font-size: 36px; }
+
+.dp-racing-header-img {
+  max-width: 530px;
+  box-shadow: 5px 5px 10px -2px #211E26;
+  height: auto;
+  margin: auto; }
+
+.picture-caption {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  margin: 15px 0px 0px 0px; }
+
+.dpracing-image-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 500px;
+  background-color: #F5F1EF;
+  margin: 100px 0px -50px 15px; }
+
+.case-study-content-block {
+  padding: 80px 15px 15px 15px; }
+
+.case-study-section-heading {
+  font-size: 68px;
+  font-weight: 300;
+  color: #EA304D;
+  text-align: left;
+  margin: 0px 0px 75px 0px; }
+
+.left-align-text, .right-align-text {
+  display: block;
+  color: #211E26;
+  width: 50%;
+  font-size: 28px;
+  font-weight: 200;
+  line-height: 45px;
+  height: 300px;
+  padding: 30px; }
+
+.bold-card-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: #EA304D; }
+
+.left-align-text {
+  text-align: left;
+  border-left: 2px solid #EA304D; }
+
+.right-align-text {
+  text-align: right;
+  margin-left: auto;
+  border-left: 2px solid #EA304D; }
+
+.standard-text {
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #211E26;
+  width: 75%;
+  font-size: 28px;
+  font-weight: 200;
+  line-height: 45px;
+  padding: 30px;
+  height: 200px;
+  border-left: 2px solid #EA304D; }
+
+#problem-statement {
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  color: #EA304D;
+  text-align: center;
+  font-size: 36px;
+  width: 65%;
+  font-weight: 200;
+  margin: auto;
+  margin-bottom: 100px;
+  line-height: 45px; }
+
+#persona-image {
+  display: block;
+  max-width: 900px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px; }
+
+#landing-main-content-container {
+  display: flex;
+  flex-flow: column wrap; }
+
+.content-display-block {
+  margin: 50px 15px 150px 15px;
+  width: auto; }
+
+.block-side-text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 200;
+  text-align: center;
+  margin: 10px;
+  padding: 25px;
+  max-width: 900px;
+  max-height: 220px;
+  color: #F5F1EF;
+  background-color: #211E26;
+  border: 2px solid #EA304D;
+  border-radius: 5%;
+  margin: 0px 0px -400px 0px;
+  box-shadow: -5px 3px 15px -1px #211E26; }
+
+.block-heading {
+  font-size: 78px;
+  text-align: center;
+  color: #EA304D;
+  margin-bottom: 120px; }
+
+.block-description-container {
+  background-color: #AA9FA4;
+  height: 400px;
+  box-shadow: -2px 5px 25px -1px #211E26;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+.block-description {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 46px;
+  line-height: 50px;
+  max-width: 78%;
+  text-align: left;
+  margin-left: 80px;
+  color: #F5F1EF; }
+
+.case-headings {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 76px;
+  margin: 150px 0px 0px 15px; }
 
 /*# sourceMappingURL=main.css.map */

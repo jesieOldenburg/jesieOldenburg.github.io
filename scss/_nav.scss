@@ -4,11 +4,11 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background-color: $midnight;
+  background-color: $primary-color;
 }
 
 .navbar-brand {
-  color: $cloud;
+  color: $light-shades;
   display: block;
   margin: 10px;
 }
@@ -20,11 +20,11 @@
 }
 
 .nav-item {
-  color: $cloud;
+  color: $light-shades;
 }
 
 .nav-link {
-    color: $cloud;
+    color: $light-shades;
     margin: 15px;
     text-decoration: none;
 }

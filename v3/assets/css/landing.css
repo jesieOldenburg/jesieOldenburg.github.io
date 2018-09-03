@@ -1,0 +1,103 @@
+.h1,
+h1 {
+    color: #F5F1EF;
+    background-color: #211E26;
+    padding: 0px;
+    margin: 0px;
+    font-size: 56px;
+    margin-bottom: 19px;
+}
+
+.jumbotron {
+    background-color: #211E26;
+    color: #F5F1EF;
+    font-size: 18px;
+}
+
+.jumbotron-description {
+    margin-left: 0px;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+    background-color: #EA304D;
+    color: #F5F1EF;
+}
+
+#Billboard-Button {
+    background-color: #EA304D;
+    color: #F5F1EF;
+}
+
+.h2,
+h2 {
+    margin-bottom: 25px;
+}
+
+@media(min-width: 350px) {
+    .card.landing-cards {
+        margin: 25px 0px 15px 0px;
+    }
+}
+
+.card.landing-cards {
+    border-color: #EA304D;
+    background-color: #F5F1EF;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.text-muted.card-subtitle.mb-2 {
+    color: #EA304D;
+}
+
+a {}
+
+#dp-racing-img {
+    width: 170px;
+}
+
+.projects-footer-link {}
+
+.img-fluid {
+    width: 110px;
+}
+
+.row.photos {}
+
+.text-center {}
+
+.intro {
+    height: 197px;
+}
+
+.projects-horizontal {
+    height: 475px;
+    margin-top: 100px;
+}
+
+.description {
+    color: #F5F1EF;
+}
+
+.navbar-light .navbar-brand {}
+
+#services-heading {
+    font-size: 48px;
+    margin-bottom: 51px;
+}
+
+.card-title {
+    border-bottom: solid 1px #EA304D;
+    margin-bottom: 28px;
+}
+
+#landing-projects-h2 {
+    font-size: 68px;
+    color: #EA304D;
+}
+
+.fa.fa-arrow-circle-right {
+    color: #EA304D;
+}
+
+.col-lg-10.col-xl-8.offset-lg-1.offset-xl-2 {}

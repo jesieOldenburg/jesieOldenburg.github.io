@@ -1,0 +1,167 @@
+@media (min-width: 992px) {
+    .text-center.mb-0 {
+        background-color: #EA304D;
+        height: 500px;
+        color: #F5F1EF;
+        padding: 80px 45px 20px 45px;
+        border: 2px solid #EA304D;
+        font-family: Barlow, sans-serif;
+        letter-spacing: 2px;
+        line-height: 3.5;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+}
+
+$dark-shades: #211E26;
+$dark-accent: #908A81;
+$primary-color: #EA304D;
+$light-accent: #AA9FA4;
+$light-shades: #F5F1EF;
+@media (max-width: 300px) {
+    .text-center.mb-0 {
+        background-color: #211e26;
+        height: 419px;
+        color: #aa9fa4;
+        padding: 42px;
+        font-family: Barlow, sans-serif;
+        border: 2px solid #EA304D;
+        letter-spacing: 2px;
+        line-height: 2.2;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+}
+
+.row.proj-overview {
+    /* background-color: #211e26; */
+}
+
+.proj-overview-text {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 2.5;
+    width: 60%;
+    margin: auto;
+}
+
+.text-center.h1 {
+    font-family: Barlow, sans-serif;
+}
+
+.text-center.section-headings {
+    font-weight: 200;
+    margin-top: 60px;
+    font-family: Barlow, sans-serif;
+    font-size: 44px;
+}
+
+p {
+    font-size: 18px;
+    font-family: Barlow, sans-serif;
+    margin-bottom: 75px;
+    line-height: 2.0;
+}
+
+.mario-pic {
+    max-width: 100%;
+    height: auto;
+}
+
+div.col.table {
+    padding: 50px 50px;
+}
+
+li {
+    font-size: 22px;
+    font-family: Barlow, sans-serif;
+    line-height: 2;
+    list-style: ;
+}
+
+ol {
+    padding: 0px 25px 50px;
+}
+
+li.li-questions {
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: 900;
+    text-decoration: underline solid #211e26;
+    /* padding: 50px; */
+}
+
+li.li-description {
+    list-style: none;
+    padding: 0px 0px 30px 50px;
+    margin: 25px 0px 0px 40px;
+    border-left: 5px solid #EA304D;
+}
+
+
+/* BLOCKQUOTE STYLES */
+
+.blockquote.alt-quote {
+    font-size: 1.5em;
+    color: #211e26;
+    padding: 50px 0px;
+}
+
+.alt-quote-p {
+    width: 70%;
+    color: #EA304D;
+    font-size: 26px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 30px;
+}
+
+.col.alt-quote {
+    background-color: #F5F1EF;
+    margin-bottom: 150px;
+    border-left: 20px solid #aa9fa4;
+    /* border-right: .5px solid #211e26; */
+}
+
+img.mx-auto.d-block {
+    padding: 25px 0px;
+    margin: 40px 0px;
+}
+
+div.row.tech-row {
+    /* padding-top: 50px; */
+}
+
+div.col.tech-col-alt {
+    margin: 25px;
+    padding: 25px;
+    background-color: #211e26;
+    border-left: 5px solid #aa9fa4;
+    /* border-radius: 25px; */
+}
+
+div.col.tech-col {
+    margin: 25px;
+    /* padding: 25px; */
+    /* border-radius: 25px; */
+}
+
+p.tech-desc {
+    text-align: center;
+}
+
+p.tech-desc-alt {
+    text-align: center;
+    color: #F5F1EF;
+}
+
+
+/* IMAGE STYLES */
+
+.prototype-imgs {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}

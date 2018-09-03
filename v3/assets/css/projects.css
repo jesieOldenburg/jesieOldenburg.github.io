@@ -1,0 +1,19 @@
+@media (min-width: 300px) {
+  #dp-racing-banner {
+    width:750px;
+    margin-bottom:45px;
+  }
+}
+
+@media (min-width: 300px) {
+  .blockquote {
+    /*width:575px;*/
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+}
+
+.mb-0, .my-0 {
+}
+

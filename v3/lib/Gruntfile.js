@@ -11,7 +11,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-
         jshint: {
             files: ['../js/mate.js'], //location of javascript files
             options: {
@@ -25,7 +24,10 @@ module.exports = function(grunt) {
         sass: { //setup sass compilation
             dist: {
                 files: {
-                    '../assets/css/styles.css': '../sass/main.scss'
+                    '../css/styles.css': '../scss/main.scss',
+                    '../css/dpracing-cs.css': '../scss/dpracing-cs.scss',
+                    '../css/contact.css': '../scss/contact.scss',
+                    '../css/landing.css': '../scss/landing.scss'
                 }
             }
         },
@@ -34,8 +36,8 @@ module.exports = function(grunt) {
                 files: ['../js/**/*.js'],
                 tasks: ['jshint']
             },
-            sass: {
-                files: ['../sass/**/*.scss'],
+            css: {
+                files: ['../scss/**/*.scss'],
                 tasks: ['sass']
             },
             browserify: {

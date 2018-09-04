@@ -1,0 +1,174 @@
+h1 {
+    color: #F5F1EF;
+    background-color: #211E26;
+    padding: 0px;
+    margin: 0px;
+    font-size: 56px;
+    margin-bottom: 19px;
+}
+
+.jumbotron {
+    background-color: #211E26;
+    color: #F5F1EF;
+    font-size: 18px;
+}
+
+.jumbotron-description {
+    margin-left: 0px;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+    background-color: #EA304D;
+    color: #F5F1EF;
+}
+
+#Billboard-Button {
+    background-color: #EA304D;
+    color: #F5F1EF;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+.card.landing-cards {
+    border-color: #EA304D;
+    background-color: #F5F1EF;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.text-muted.card-subtitle.mb-2 {
+    color: #EA304D;
+}
+
+#dp-racing-img {
+    width: 170px;
+}
+
+.img-fluid {
+    width: 110px;
+}
+
+.intro {
+    height: 197px;
+}
+
+.projects-horizontal {
+    height: auto;
+    margin-top: 100px;
+}
+
+.description {
+    color: #F5F1EF;
+}
+
+#services-heading {
+    font-size: 48px;
+    margin-bottom: 51px;
+}
+
+.card-title {
+    border-bottom: solid 1px #EA304D;
+    margin-bottom: 28px;
+}
+
+#landing-projects-h2 {
+    font-size: 68px;
+    color: #EA304D;
+}
+
+.fa.fa-arrow-circle-right {
+    color: #EA304D;
+}
+
+.row.card-row {
+    flex-wrap: nowrap;
+    width: auto;
+    position: static;
+}
+
+div.container.services-container {
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: -75px;
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .row.card-row {
+        margin-bottom: 75px;
+        display: block;
+        margin: auto;
+        margin-bottom: 25px;
+        // position: static;
+    }
+    .card.landing-cards {
+        // width: 250.5px;
+        // position: absolute;
+        margin: auto;
+    }
+    div.row.card-row>div:nth-child(2)>div {
+        margin: 50px 0px;
+    }
+    .card-title {
+        font-size: 16px;
+    }
+    .text-muted.card-subtitle.mb-2 {
+        font-size: 14px;
+    }
+    .projects-horizontal {
+        height: auto;
+        padding: 74px;
+    }
+    .photo-gallery {
+        // position: relative;
+    }
+    .footer-basic {
+        // position: relative;
+    }
+    #landing-projects-h2 {
+        font-size: 26px;
+        margin-top: -50px;
+    }
+    #services-heading {
+        font-size: 26px;
+    }
+    .row.services-row {
+        height: auto;
+        // position: static;
+    }
+    .intro {
+        height: auto;
+        margin-bottom: -55px;
+    }
+    .row.photos {
+        margin: auto;
+        display: flex;
+        padding: 25px;
+    }
+    .row.photo-gallery {}
+    .img-fluid {
+        width: 50px;
+        margin: auto;
+        display: block;
+    }
+    // .container.services-container {
+    //     height: auto;
+    // }
+    div.photo-gallery>div.row.photos>div {
+        margin: auto;
+        width: auto;
+    }
+    div.footer-basic>footer>ul>li>a {
+        font-size: 14px;
+    }
+}

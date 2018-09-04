@@ -1,19 +1,17 @@
 @media (min-width: 300px) {
   #dp-racing-banner {
-    width:750px;
-    margin-bottom:45px;
-  }
-}
-
+    width: 750px;
+    margin-bottom: 45px; } }
 @media (min-width: 300px) {
   .blockquote {
     /*width:575px;*/
-    margin:auto;
-    margin-top:50px;
-    margin-bottom:50px;
-  }
-}
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; } }
+.row.articles {
+  margin: auto; }
 
-.mb-0, .my-0 {
-}
+div.row.articles > div {
+  margin: auto; }
 
+/*# sourceMappingURL=projects.css.map */

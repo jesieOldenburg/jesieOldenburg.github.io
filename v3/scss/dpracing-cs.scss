@@ -1,37 +1,57 @@
-@media (min-width: 992px) {
-    .text-center.mb-0 {
-        background-color: #EA304D;
-        height: 500px;
-        color: #F5F1EF;
-        padding: 80px 45px 20px 45px;
-        border: 2px solid #EA304D;
-        font-family: Barlow, sans-serif;
-        letter-spacing: 2px;
-        line-height: 3.5;
-        font-size: 20px;
-        margin-bottom: 20px;
-        font-weight: 400;
-    }
-}
-
+// VARIABLES**********************************************************
 $dark-shades: #211E26;
 $dark-accent: #908A81;
 $primary-color: #EA304D;
 $light-accent: #AA9FA4;
 $light-shades: #F5F1EF;
-@media (max-width: 300px) {
-    .text-center.mb-0 {
-        background-color: #211e26;
-        height: 419px;
-        color: #aa9fa4;
-        padding: 42px;
-        font-family: Barlow, sans-serif;
-        border: 2px solid #EA304D;
-        letter-spacing: 2px;
-        line-height: 2.2;
-        margin-bottom: 20px;
-        font-size: 14px;
-    }
+
+//PLACEHOLDER CLASSES*************************************************
+%heading-constants {
+    font-weight: 200;
+    font-family: Barlow, sans-serif;
+    font-size: 44px;
+    width: auto;
+}
+
+%p-standard-style {
+    font-size: 16px;
+    font-family: Barlow, sans-serif;
+    margin: 50px 0px;
+    line-height: 2.0;
+    width: 60%;
+}
+// *******************************************************************
+.row {
+    margin: 15px;
+}
+
+.row.shaded-primary {
+    border-left: solid 10px $primary-color;
+}
+
+div.row.alt-shade {
+    background-color: $dark-shades;
+    height: 750px;
+    width: auto;
+}
+
+col.alt-shade {
+    // width: 60%;
+}
+
+.text-right.alt-shade{
+    color: $light-shades;
+    // width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: 28px;
+}
+.text-right.section-headings.alt-shade{
+    color: $light-shades;
+    margin-top: 120px;
+    font-weight: bold;
+    font-size: 64px;
 }
 
 .row.proj-overview {
@@ -45,28 +65,58 @@ $light-shades: #F5F1EF;
     width: 60%;
     margin: auto;
 }
-
+// HEADINGS***********************************************************
 .text-center.h1 {
     font-family: Barlow, sans-serif;
 }
 
 .text-center.section-headings {
-    font-weight: 200;
-    margin-top: 60px;
-    font-family: Barlow, sans-serif;
-    font-size: 44px;
+    @extend %heading-constants;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
+.text-left.section-headings {
+    @extend %heading-constants;
+    margin-top: 50px;
+}
+
+.text-right.section-headings {
+    @extend %heading-constants;
+}
+// *******************************************************************
+
+// PARAGRAPH STYLES***************************************************
 p {
     font-size: 18px;
-    font-family: Barlow, sans-serif;
-    margin-bottom: 75px;
-    line-height: 2.0;
+    @extend %p-standard-style;
 }
 
-.mario-pic {
-    max-width: 100%;
+p.text-left {
+    @extend %p-standard-style;
+}
+
+p.text-right {
+    @extend %p-standard-style;
     height: auto;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+p.text-center {
+    @extend %p-standard-style;
+    font-size: 28px;
+    margin: auto;
+}
+
+p.tech-desc {
+    text-align: center;
+    margin: auto;
+}
+
+p.tech-desc-alt {
+    text-align: center;
+    color: #F5F1EF;
 }
 
 div.col.table {
@@ -98,8 +148,7 @@ li.li-description {
     border-left: 5px solid #EA304D;
 }
 
-
-/* BLOCKQUOTE STYLES */
+//BLOCKQUOTE STYLES*************************************************** 
 
 .blockquote.alt-quote {
     font-size: 1.5em;
@@ -115,6 +164,8 @@ li.li-description {
     margin: auto;
     padding: 30px 30px;
 }
+
+// *******************************************************************
 
 .col.alt-quote {
     background-color: #F5F1EF;
@@ -146,21 +197,216 @@ div.col.tech-col {
     /* border-radius: 25px; */
 }
 
-p.tech-desc {
-    text-align: center;
-}
-
-p.tech-desc-alt {
-    text-align: center;
-    color: #F5F1EF;
-}
-
 
 /* IMAGE STYLES */
+.mario-pic {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
 
 .prototype-imgs {
     margin: auto;
     width: 100%;
     height: auto;
     padding-bottom: 100px;
+}
+
+// Media Query's******************************************************
+@media (max-width: 375px) {
+    %p-small-device {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: $dark-shades;
+    }
+    
+    p.text-center {
+        font-size: 16px;
+    }
+
+    p.text-left {
+        font-size: 12px;
+    }
+
+    p {
+        @extend %p-small-device;
+    }
+
+    // p.left {
+    //     @extend %p-small-device;
+    // }
+
+    p.right {
+        @extend %p-small-device;
+    }
+
+    p.proj-overview-text { // Unique element for the project overview section...
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+    }
+
+    div.row.alt-shade {
+        background-color: transparent;
+        height: auto;
+        width: 100%;
+    }
+
+    .text-right.alt-shade{
+            @extend %p-small-device;
+    }
+    
+    .text-right.section-headings.alt-shade{
+            @extend %small-device-headings;
+        // margin-top: 120px;
+        // font-weight: bold;
+        // font-size: 64px;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .row.double { // Contains the my roles & project timeline sections of the document...
+        width: 100%;
+        // margin: 20px;
+        display: block;
+    }
+
+    .col.half { // Contains the challenge and challenge statement sections of the document...
+        width: 100%;
+        height: auto;
+    }
+
+    %small-device-headings { // For device max width of 375px...
+        font-size: 24px;
+        color: $primary-color;
+        margin-top: 20px;
+    }
+
+    h2.text-center.section-headings { // Controls all center aligned heading elements for the document...
+        @extend %small-device-headings;
+    }
+
+    h2.text-left.section-headings { // Controls all left aligned heading elements for the document...
+        @extend %small-device-headings;
+    }
+
+    h2.text-right.section-headings { // Controls all right aligned heading elements for the document...
+        @extend %small-device-headings;
+    }
+
+    div.row.proj-overview>div>p { // Controls the project overview section of the document; This element has a unique style...
+        font-size: 14px;
+    }
+
+    .text-center.mb-0 {
+        background-color: #211e26;
+        height: auto;
+        width: 100%;
+        color: #aa9fa4;
+        padding: 42px;
+        font-family: Barlow, sans-serif;
+        border: 2px solid #EA304D;
+        letter-spacing: 2px;
+        line-height: 2.2;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    // IMAGE STYLES **************************************************
+    %small-device-img {
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    img.mario-pic {
+        @extend %small-device-img;
+    }
+    img.marioPersona.png {
+        @extend %small-device-img;
+    }
+
+    //Lessons Learned*************************************************
+    div.col.table {
+    padding: 50px 0px;
+    }
+
+    div.row.table {
+
+    }
+
+    li {
+        font-size: 14px;
+        font-family: Barlow, sans-serif;
+        line-height: 2;
+    }
+
+    ol {
+        padding: 0px 25px 50px;
+    }
+
+    ul {
+        margin-left: -25px;
+    }
+
+    li.li-questions {
+        text-transform: uppercase;
+        font-style: oblique;
+        font-weight: 900;
+        text-decoration: underline solid #211e26;
+        /* padding: 50px; */
+    }
+
+    li.li-description {
+        list-style: none;
+        padding: 0px 0px 30px 10px;
+        // margin: 25px 0px 0px 40px;
+        border-left: 5px solid #EA304D;
+    }
+
+    //BLOCKQUOTE STYLES***********************************************
+
+    .col.alt-quote {
+        width: 100%;
+        height: auto;
+    }
+
+    .blockquote.alt-quote {
+        font-size: 14px;
+        color: #211e26;
+        padding: 10px 0px;
+    }
+
+    p.text-uppercase.alt-quote-p {
+        font-size: 14px;
+    }
+
+    .alt-quote-p {
+        width: 70%;
+        color: #EA304D;
+        font-size: 14px;
+        text-align: center;
+        margin: auto;
+        padding: 30px 30px;
+    }
+
+
+} 
+//End 375px Media Query***************************
+
+@media (min-width: 992px) {
+    .text-center.mb-0 {
+        background-color: #EA304D;
+        height: 700px;
+        color: #F5F1EF;
+        padding: 80px 70px;
+        border: 2px solid #EA304D;
+        font-family: Barlow, sans-serif;
+        letter-spacing: 2px;
+        line-height: 3.5;
+        font-size: 20px;
+        margin-bottom: 40px;
+        font-weight: 400;
+    }
 }

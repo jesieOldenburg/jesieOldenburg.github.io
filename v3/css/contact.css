@@ -1,20 +1,31 @@
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+  background-color: #EA304D;
+  color: #F5F1EF; }
+
 .main-heading {
+  font-family: Barlow, sans-serif;
   height: 200px;
   padding-top: 60px;
-  background-color: white;
-  color: #1b3df4;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: -49px; }
 
-.h4,
 h4 {
+  font-family: Barlow, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px; }
 
-#heading-container {
-  margin-bottom: 30px; }
+h2 {
+  font-family: Barlow, sans-serif; }
+
+form {
+  border-left: 1px solid #EA304D; }
 
 .contact-clean {
   margin-top: -75px; }
+
+button.btn.btn-primary {
+  display: block;
+  margin: auto;
+  background-color: #EA304D; }
 
 /*# sourceMappingURL=contact.css.map */

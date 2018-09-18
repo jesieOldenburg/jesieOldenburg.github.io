@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css?h=bef8a4c9c6dc9231f6046f6a301f4c3a">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css?h=bef8a4c9c6dc9231f6046f6a301f4c3a">
     <link rel="stylesheet" href="../../assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="../../assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anaheim">
@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="../../css/Paralax-Hero-Banner-1.css?h=56555eaa22d7d94f8060d317cab0cb23">
-    <link rel="stylesheet" href="../../css/landing.css?h=759f802b87751a78b7892d589e6daf96">
+    <!-- <link rel="stylesheet" href="../../css/landing.css?h=759f802b87751a78b7892d589e6daf96"> -->
     <link rel="stylesheet" href="../../css/Lightbox-Gallery.css?h=18e62979a09b8d2038c5f7426fdb362b">
     <link rel="stylesheet" href="../../css/Navigation-Clean.css?h=270046317195122c2fe3391473262a77">
     <link rel="stylesheet" href="../../css/Paralax-Hero-Banner.css?h=56555eaa22d7d94f8060d317cab0cb23">
@@ -59,7 +59,7 @@
     </div>
 
     <div class="article-clean">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2 d-flex flex-column align-items-center">
                     <div class="intro" style="margin-bottom:-35px;">
@@ -67,6 +67,7 @@
                         <p class="text-center"><span class="by">by</span> <a href="#">Jesie Oldenburg</a><span class="date">Sept 8th, 2016 </span></p>
                     </div><img class="img-fluid" src="../../assets/img/dpracing-resized.png?h=a547125ce019586596a9b5bf9f01d182" id="dpracing-banner">
                 </div>
+            </div>
 
                 <div class="row proj-overview">
                     <div class="col">
@@ -78,37 +79,38 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row double">
                     <!-- Roles-->
-                    <div class="col">
-                        <h2 class="text-center section-headings">My Roles</h2>
+                    <div class="col half">
+                        <h2 class="text-left section-headings">My Roles</h2>
                         <p>
                             For this project, I filled the roles of UI/UX Designer as well as Front-end Developer. This allowed me to prepare and visualize the site based on user research prior to prototyping, and ultimately designing, developing and implementing the site.
 
                         </p>
                     </div>
+                </div>
+                <div class="row">
 
-                    <div class="col">
-                        <h2 class="text-center section-headings">Project Timeline</h2>
-                        <p>
+                     <div class="col" id="moving-card">
+                        <h2 class="text-left section-headings">Project Timeline</h2>
+                        <p class="text-left">
                             The timeline for this project was two weeks, which was a very small window for a project of this scale. This forced me to draw from my experiences in military planning in order to accomplish key tasks. Because of these tight time constraints, I used Bootstrap's
                             Framework because of its ability to quickly assemble a B2B site template then customize to suit the customer's needs.
                         </p>
                     </div>
                 </div>
 
-                <div class="row">
-                    <!-- Project Timeline -->
+                   
+                <!-- </div> -->
 
-                </div>
-
+                <!-- The Challenge -->
                 <div class="row">
-                    <!-- The Challenge -->
                     <div class="col">
                         <h2 class="text-center section-headings">The Challenge</h2>
-                        <p>
+                        <p class="text-center" >
                             Identifying a client's specific problem is key to ensuring their design goals are met. Research findings from user interviews proved invaluable in defining clear issues with measurable goals, as well as a concise Challenge Statement.
                         </p>
+
                         <blockquote class="blockquote text-center">
                             <p class="text-uppercase text-center mb-0">
                                 "How might we provide a visually re-designed webpage while introducing an updated UI, new products page features, and admin capabilities for the users and owner of dpracing.com that facilitates a streamlined browsing experience while also providing the
@@ -122,36 +124,33 @@
                     <!--The Users -->
                     <div class="col">
                         <h2 class="text-center section-headings">The Users</h2>
-                        <p>
+                        <p class="text-center">
                             Great design requires knowing your target user and viewing a project from their perspective. Results of user research and interviews led to the birth of the project's primary persona, "Mario".
                         </p>
-                        <h4 class="text-center section-headings">
+                        <h2 class="text-center section-headings">
                             Persona Bio
-                        </h4>
+                            </h4>
 
-                        <div class="row">
-                            <div class="col">
-                                <p>
-                                    Mario is a Datsun street car enthusiast who owns a fabrication shop of his own. He works on own car collection and he has a loyal customer following. In order to save time when working on a project, he often orders custom components from an outside vendor.
-                                    The issue he finds when ordering such unique parts is the difficulty in ordering parts online. A majority of vendors in the market have no web presence, and those who do are extremely outdated and difficult to navigate.
-                                </p>
+                            <div class="row shaded-primary">
+                                <div class="col ">
+                                    <p class="text-left">
+                                        Mario is a Datsun street car enthusiast who owns a fabrication shop of his own. He works on own car collection and he has a loyal customer following. In order to save time when working on a project, he often orders custom components from an outside vendor.
+                                        The issue he finds when ordering such unique parts is the difficulty in ordering parts online. A majority of vendors in the market have no web presence, and those who do are extremely outdated and difficult to navigate.
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="col">
-                                <p>
-                                    The design of the admin console and its required capabilities were discussed with the sole user of the site's product management feature, the site owner. The admin wanted the design of the UI to be as simple as possible allowing him to manage his inventory
-                                    in a distraction-free space.
-                                </p>
+                            <div class="row">
+                                <div class="col">
+                                     <p class="text-left">
+                                        The design of the admin console and its required capabilities were discussed with the sole user of the site's product management feature, the site owner. The admin wanted the design of the UI to be as simple as possible allowing him to manage his inventory
+                                        in a distraction-free space.
+                                    </p>
+                                    <p class="text-left">
+                                        In order to give my users the best experience possible, I defined key goals which could be achieved in such a short time-frame. This particular project was interesting to design for because required me to design from multiple users perspectives, the customer as well as the owner of DP Racing as a user of the admin console. This is a custom site for the shop so I was able to design the admin console to meet that user’s specific needs. If this was a larger business or a generic auto parts site, I would have had to interview more owners and analyze the findings to design the best solution to suit all (or most!) of the users.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-
-
-
-                        <p>
-                            In order to give my users the best experience possible, I defined key goals which could be achieved in such a short timeframe. This particular project was interesting to design for because required me to design from multiple users perspectives, the customer
-                            as well as the owner of DP Racing as a user of the admin console. This is a custom site for the shop so I was able to design the admin console to meet that user’s specific needs. If this was a larger business or a generic auto
-                            parts site, I would have had to interview more owners and analyze the findings to design the best solution to suit all (or most!) of the users.
-                        </p>
                     </div>
                 </div>
 
@@ -169,8 +168,8 @@
                 <div class="row">
                     <!-- Research -->
                     <div class="col">
-                        <h2 class="text-center section-headings">Research</h2>
-                        <p>
+                        <h2 class="text-left section-headings">Research</h2>
+                        <p class="text-left">
                             To discover more about the site’s typical users I conducted user and competitor research. I interviewed 10 members of the racing industry including consumers and businesses and was given plenty of actionable feedback to proceed with the design of the
                             site.
                         </p>
@@ -183,7 +182,7 @@
                                         <br> What is one thing you would improve about the websites you purchase custom auto parts from?
                                     </p>
 
-                                    <p class="text-uppercase alt-quote-p" style="font-size: 2em;">
+                                    <p class="text-uppercase alt-quote-p" >
                                         <q>I wish the quality of a vendor's site matched the superb quality of their service and parts.</q>
                                     </p>
                                 </blockquote>
@@ -192,30 +191,26 @@
 
                         <div class="row">
                             <div class="col">
-                                <p>
+                                <p class="text-left">
                                     Though I gained many insights from my user research I chose to focus on two primary pain-points for the consumer users of the site as well as two for the admin user. Consumer goals were an updated UI and an improved layout to increase the readability
                                     of the site's content. Admin issues were to create a minimal interface allowing all focus to be drawn to the functionality of the console.
                                 </p>
-                            </div>
-                            <div class="col">
-                                <p>
+                                <p class="text-left">
                                     In order to generate ideas I put pen to paper and sketched out lightweight screens for the client to review. Once a rough layout was approved I created several mock-ups using Adobe Comp CC for low fidelity and Sketch for mid-fidelity prototype versions.
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </div>
 
                 <div class="row">
                     <!-- Constraints -->
                     <div class="col">
                         <h2 class="text-center section-headings">Constraints</h2>
-                        <p>
+                        <p class="text-left">
                             As you can imagine, fabricating custom auto parts for 38 years generates a robust database. My two-week window left me with little time to assemble a data structure using my client's handwritten index of part numbers! Luckily there was an excel spreadsheet
                             listing all part numbers for three primary component categories: Suspension, Drivetrain, and ______. The next problem that arose was getting data from the spreadsheet to a valid JSON data structure.
                         </p>
 
-                        <p>
+                        <p class="text-left">
                             Thanks to Google I managed to find the perfect web-based tool for my current challenge.
                             <a href="https://www.mockaroo.com/">Mockaroo.com</a>, allows you to upload data in various document formats and convert it to a format of your choice. In my case .csv to .json worked, and with a few minor edits, I had a valid
                             JSON database file to upload to Firebase.
@@ -227,11 +222,11 @@
                     <!-- Prototypes -->
                     <div class="col">
                         <h2 class="text-center section-headings">Prototypes</h2>
-                        <p>
+                        <p class="text-center prototype-img-desc">
                             Using Sketch I began creating a mid-fidelity prototype of the website focusing on the customer-facing area of the site.
                         </p>
                         <img src="../../img/dpracing_midfi.jpeg" alt="" class="prototype-imgs">
-                        <p>
+                        <p class="text-center prototype-img-desc">
                             A separate prototype was created for the admin page for its sole user.
                         </p>
 
@@ -301,11 +296,11 @@
 
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-center section-headings">Lessons Learned</h2>
+                        <h2 class="text-left section-headings">Lessons Learned</h2>
                         <p>
                             When the project was completed I was not short on fresh knowledge. From integrating with Firebase to user interviews, this project came chock full of lessons. While there are many, I'll focus on my top three:
                         </p>
-                        <div class="row">
+                        <div class="row table">
                             <div class="col table">
                                 <ul>
                                     <li class="li-questions">Look deeper into the responses from user interviews for insights.
@@ -347,6 +342,7 @@
 
 
         </div>
+    </div>
         <div class="footer-basic">
             <footer>
                 <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
@@ -356,12 +352,12 @@
                     <li class="list-inline-item"><a href="#">About Me</a></li>
                     <li class="list-inline-item"><a href="#">Contact</a></li>
                 </ul>
-                <p class="copyright">Company Name © 2017</p>
             </footer>
         </div>
-    </div>
     <script src="../assets/js/jquery.min.js?h=f2f87b58be0d57ecf71ada8df361a2d9"></script>
-    <script src="../assets/bootstrap/js/bootstrap.min.js?h=e665caf5a91ebe9e287226a3dade0d69"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/anime.min.js"></script>
+    <<script src="../../js/mate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="../assets/js/Paralax-Hero-Banner.js?h=e4189e92244721b1a77b8f8d1d0bbc23"></script>

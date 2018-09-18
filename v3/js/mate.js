@@ -24,18 +24,18 @@ var $elementHeight = $targetElement.outerHeight();
 var $elementBottom = $elementTop + $elementHeight;
     // console.log("scrolling");
     if ( $elementTop < $windowBottom && $elementBottom > $windowTop) {
-        console.log('in view');
+        // console.log('in view');
         $targetClass.addClass('moving');
     } else {
-        console.log('remeoved the class homes');
+        // console.log('remeoved the class homes');
         $targetClass.removeClass('moving');
     }        
 });
 
 $window.scroll(function(event) {
-    console.log('scrolling');
+    // console.log('scrolling');
     if ($targetClass.hasClass('moving')) {
-        console.log('has class is onnn');
+        // console.log('has class is onnn');
         var el = document.querySelector('#moving-card .moving');
         var domNode = anime({
             targets: el,

@@ -28,7 +28,8 @@ module.exports = function(grunt) {
                     '../css/dpracing-cs.css': '../scss/dpracing-cs.scss',
                     '../css/contact.css': '../scss/contact.scss',
                     '../css/landing.css': '../scss/landing.scss',
-                    '../css/projects.css': '../scss/projects.scss'
+                    '../css/projects.css': '../scss/projects.scss',
+                    '../css/about.css': '../scss/about.scss'
                 }
             }
         },

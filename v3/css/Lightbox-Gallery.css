@@ -34,6 +34,8 @@
 
 .photo-gallery .photos {
   padding-bottom:20px;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .photo-gallery .item {

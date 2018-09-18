@@ -1,20 +1,23 @@
-h1 {
+#landing-header {
     color: #F5F1EF;
     background-color: #211E26;
     padding: 0px;
     margin: 0px;
     font-size: 56px;
     margin-bottom: 19px;
+    height: 130px;
 }
 
 .jumbotron {
     background-color: #211E26;
     color: #F5F1EF;
     font-size: 18px;
+    height: 470px;
 }
 
 .jumbotron-description {
     margin-left: 0px;
+    width: 555; 
 }
 
 .navbar.navbar-light.navbar-expand-md.navigation-clean {
@@ -94,9 +97,30 @@ div.container.services-container {
     margin-bottom: -75px;
 }
 
+@media only screen and (max-width: 575.98px) {
+    .jumbotron {
+        height: 520px;
+    }
+
+    h1#landing-header {
+        margin-bottom: 90px;
+    }
+
+    .card.landing-cards {
+        background-color: none;
+        border-color: none;
+        margin: auto;
+    }
+}
+
 @media only screen and (max-width: 375px) {
-    h1 {
-        font-size: 36px;
+    .jumbotron {
+        height: auto;
+    }
+
+    h1#landing-header {
+        font-size: 30px;
+        height: auto;
     }
     h2 {
         font-size: 26px;
@@ -112,8 +136,8 @@ div.container.services-container {
         // position: static;
     }
     .card.landing-cards {
-        // width: 250.5px;
-        // position: absolute;
+        background-color: none;
+        border-color: none;
         margin: auto;
     }
     div.row.card-row>div:nth-child(2)>div {

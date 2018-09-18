@@ -1,0 +1,140 @@
+// IMPORTS
+@import 'partials/nav';
+
+// VARIABLES**********************************************************
+$dark-shades: #211E26;
+$dark-accent: #908A81;
+$primary-color: #EA304D;
+$light-accent: #AA9FA4;
+$light-shades: #F5F1EF;
+
+//PLACEHOLDER CLASSES ******
+%p-standard-style {
+    font-family: Barlow, sans-serif;
+    width: 80%;
+    height: auto;
+}
+
+%shaded {
+    height: auto;
+    background-color: $primary-color;
+}
+
+.heading-col {
+    align-items: center;
+}
+
+.col.shaded {
+    @extend %shaded;
+}
+
+main {
+    margin: 20px 25px;
+}
+
+p {
+    @extend %p-standard-style;
+    font-size: 18px;
+    margin: 30px 35px;
+    line-height: 2.0;
+}
+
+.row {
+    margin: auto;
+}
+
+.header-row{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background-color: $dark-shades;
+    padding: 50px;
+}
+
+.row.content{
+    margin: 15px;
+}
+
+.col.content {
+    margin: 15px;
+}
+
+.profile-col {
+    margin: auto;
+    align-items: center;
+}
+
+.profile-image {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+h1#about-heading {
+    font-family: 'Barlow', sans-serif;
+    font-size: 86px;
+    color: $light-shades;
+    padding: 25px;
+    margin: 15px 25px;
+    vertical-align: middle;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    h1#about-heading {
+        font-size: 156px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1#about-heading {
+        font-size: 56px;
+    }
+
+    // .profile-image {
+    //     border-radius: 
+    // }
+}
+
+@media only screen and (max-width: 475px) {
+// TEXT STYLES:::::
+    p.text-left.about-desc {
+        font-size: 14px;
+        width: 100%;
+        margin: 30px 5px;
+    }
+
+    .heading-col {
+
+    }
+
+    h1#about-heading {
+        font-family: 'Barlow', sans-serif;
+        font-size: 26px;
+        padding: 5px;
+        margin: 10px ;
+    }
+
+    .row {
+        margin: 10px 50px;
+    }
+
+    .row.header-row {
+      margin: auto;
+    }
+
+    main {
+        margin: 15px;
+        width: auto;
+    }
+
+    body > div.container > main > div > div.col {
+        width: auto;
+    }
+
+    .profile-image {
+        border-radius: 8px;
+    }
+}

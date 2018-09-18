@@ -1,28 +1,41 @@
-@media (min-width: 992px) {
-  .text-center.mb-0 {
-    background-color: #EA304D;
-    height: 500px;
-    color: #F5F1EF;
-    padding: 80px 45px 20px 45px;
-    border: 2px solid #EA304D;
-    font-family: Barlow, sans-serif;
-    letter-spacing: 2px;
-    line-height: 3.5;
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: 400; } }
-@media (max-width: 300px) {
-  .text-center.mb-0 {
-    background-color: #211e26;
-    height: 419px;
-    color: #aa9fa4;
-    padding: 42px;
-    font-family: Barlow, sans-serif;
-    border: 2px solid #EA304D;
-    letter-spacing: 2px;
-    line-height: 2.2;
-    margin-bottom: 20px;
-    font-size: 14px; } }
+.text-center.section-headings, .text-left.section-headings, .text-right.section-headings {
+  font-weight: 200;
+  font-family: Barlow, sans-serif;
+  font-size: 44px;
+  width: auto;
+  text-decoration: underline double #EA304D; }
+
+p, p.text-left, p.text-right, p.text-center {
+  font-size: 16px;
+  font-family: Barlow, sans-serif;
+  margin: 50px 0px;
+  line-height: 2.0;
+  width: 60%; }
+
+.row {
+  margin: 15px; }
+
+.row.shaded-primary {
+  border-left: solid 10px #EA304D; }
+
+div.row.alt-shade {
+  background-color: #211E26;
+  height: 750px;
+  width: auto; }
+
+.text-right.alt-shade {
+  color: #F5F1EF;
+  height: auto;
+  margin-left: auto;
+  margin-right: 15px;
+  font-size: 28px; }
+
+.text-right.section-headings.alt-shade {
+  color: #F5F1EF;
+  margin-top: 120px;
+  font-weight: bold;
+  font-size: 64px; }
+
 .row.proj-overview {
   /* background-color: #211e26; */ }
 
@@ -37,20 +50,37 @@
   font-family: Barlow, sans-serif; }
 
 .text-center.section-headings {
-  font-weight: 200;
-  margin-top: 60px;
-  font-family: Barlow, sans-serif;
-  font-size: 44px; }
+  margin: auto;
+  margin-bottom: 50px; }
+
+.text-left.section-headings {
+  margin-top: 50px; }
 
 p {
-  font-size: 18px;
-  font-family: Barlow, sans-serif;
-  margin-bottom: 75px;
-  line-height: 2.0; }
+  font-size: 18px; }
 
-.mario-pic {
-  max-width: 100%;
-  height: auto; }
+p.text-right {
+  height: auto;
+  margin-left: auto;
+  margin-right: 16px; }
+
+p.text-center {
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 60px; }
+
+p.tech-desc {
+  text-align: center;
+  margin: auto; }
+
+p.tech-desc-alt {
+  text-align: center;
+  color: #F5F1EF; }
+
+.prototype-img-desc {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bolder; }
 
 div.col.table {
   padding: 50px 50px; }
@@ -76,11 +106,10 @@ li.li-description {
   margin: 25px 0px 0px 40px;
   border-left: 5px solid #EA304D; }
 
-/* BLOCKQUOTE STYLES */
 .blockquote.alt-quote {
   font-size: 1.5em;
   color: #211e26;
-  padding: 50px 0px; }
+  padding: 5px 0px; }
 
 .alt-quote-p {
   width: 70%;
@@ -92,7 +121,7 @@ li.li-description {
 
 .col.alt-quote {
   background-color: #F5F1EF;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   border-left: 20px solid #aa9fa4;
   /* border-right: .5px solid #211e26; */ }
 
@@ -115,18 +144,144 @@ div.col.tech-col {
   /* padding: 25px; */
   /* border-radius: 25px; */ }
 
-p.tech-desc {
-  text-align: center; }
-
-p.tech-desc-alt {
-  text-align: center;
-  color: #F5F1EF; }
-
 /* IMAGE STYLES */
+.mario-pic {
+  margin: auto;
+  max-width: 100%;
+  height: auto; }
+
 .prototype-imgs {
   margin: auto;
   width: 100%;
   height: auto;
-  padding-bottom: 100px; }
+  padding-bottom: 50px; }
+
+#dp-racing-banner {
+  width: 950px;
+  height: auto; }
+
+@media (max-width: 375px) {
+  p, p.right, .text-right.alt-shade {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #211E26; }
+
+  p.text-center {
+    font-size: 16px; }
+
+  p.text-left {
+    font-size: 12px; }
+
+  p.proj-overview-text {
+    width: 100%;
+    height: auto;
+    font-size: 12px; }
+
+  div.row.alt-shade {
+    background-color: transparent;
+    height: auto;
+    width: 100%; }
+
+  .row {
+    margin: auto; }
+
+  .row.double {
+    width: 100%;
+    display: block; }
+
+  .col.half {
+    width: 100%;
+    height: auto; }
+
+  .text-right.section-headings.alt-shade, h2.text-center.section-headings, h2.text-left.section-headings, h2.text-right.section-headings {
+    font-size: 24px;
+    color: #EA304D;
+    margin-top: 20px; }
+
+  div.row.proj-overview > div > p {
+    font-size: 14px; }
+
+  .text-center.mb-0 {
+    background-color: #211e26;
+    height: auto;
+    width: 100%;
+    color: #aa9fa4;
+    padding: 42px;
+    font-family: Barlow, sans-serif;
+    border: 2px solid #EA304D;
+    letter-spacing: 2px;
+    line-height: 2.2;
+    margin-bottom: 20px;
+    font-size: 12px; }
+
+  img.mario-pic, img.marioPersona.png {
+    margin: auto;
+    width: 100%;
+    height: auto; }
+
+  div.col.table {
+    padding: 50px 0px; }
+
+  li {
+    font-size: 14px;
+    font-family: Barlow, sans-serif;
+    line-height: 2; }
+
+  ol {
+    padding: 0px 25px 50px; }
+
+  ul {
+    margin-left: -25px; }
+
+  li.li-questions {
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: 900;
+    text-decoration: underline solid #211e26;
+    /* padding: 50px; */ }
+
+  li.li-description {
+    list-style: none;
+    padding: 0px 0px 30px 10px;
+    border-left: 5px solid #EA304D; }
+
+  .col.alt-quote {
+    width: 100%;
+    height: auto; }
+
+  .blockquote.alt-quote {
+    font-size: 14px;
+    color: #211e26;
+    padding: 10px 0px; }
+
+  p.text-uppercase.alt-quote-p {
+    font-size: 14px; }
+
+  .alt-quote-p {
+    width: 70%;
+    color: #EA304D;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 30px; }
+
+  #dp-racing-banner {
+    display: block;
+    width: 100%;
+    height: auto; } }
+@media (min-width: 992px) {
+  .text-center.mb-0 {
+    background-color: #EA304D;
+    height: 700px;
+    color: #F5F1EF;
+    padding: 80px 70px;
+    border: 2px solid #EA304D;
+    font-family: Barlow, sans-serif;
+    letter-spacing: 2px;
+    line-height: 3.5;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 400; } }
 
 /*# sourceMappingURL=dpracing-cs.css.map */

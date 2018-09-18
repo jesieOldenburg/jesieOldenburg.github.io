@@ -11,6 +11,7 @@ $light-shades: #F5F1EF;
     font-family: Barlow, sans-serif;
     font-size: 44px;
     width: auto;
+    text-decoration: underline double $primary-color;
 }
 
 %p-standard-style {
@@ -74,6 +75,7 @@ col.alt-shade {
     @extend %heading-constants;
     margin: auto;
     margin-bottom: 50px;
+    // margin-top: 50px;
 }
 
 .text-left.section-headings {
@@ -100,13 +102,14 @@ p.text-right {
     @extend %p-standard-style;
     height: auto;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 16px;
 }
 
 p.text-center {
     @extend %p-standard-style;
-    font-size: 28px;
+    font-size: 20px;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 p.tech-desc {
@@ -117,6 +120,12 @@ p.tech-desc {
 p.tech-desc-alt {
     text-align: center;
     color: #F5F1EF;
+}
+
+.prototype-img-desc {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 div.col.table {
@@ -153,7 +162,7 @@ li.li-description {
 .blockquote.alt-quote {
     font-size: 1.5em;
     color: #211e26;
-    padding: 50px 0px;
+    padding: 5px 0px;
 }
 
 .alt-quote-p {
@@ -169,7 +178,7 @@ li.li-description {
 
 .col.alt-quote {
     background-color: #F5F1EF;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     border-left: 20px solid #aa9fa4;
     /* border-right: .5px solid #211e26; */
 }
@@ -209,7 +218,12 @@ div.col.tech-col {
     margin: auto;
     width: 100%;
     height: auto;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+#dp-racing-banner {
+    width: 950px;
+    height: auto;
 }
 
 // Media Query's******************************************************
@@ -391,7 +405,11 @@ div.col.tech-col {
         padding: 30px 30px;
     }
 
-
+    #dp-racing-banner {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 } 
 //End 375px Media Query***************************
 

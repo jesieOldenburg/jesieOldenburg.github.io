@@ -1,10 +1,6 @@
-lib/node_modules
-lib/.sass-cache
+v3/node_modules
+.sass-cache
 .DS_Store
-css/styles.css.map
-in.scssc
-main.css.map
-blog.css.map
-package-lock.json
-../mac-cli/
-mac-cli/
+mac-cli
+lib/node_modules
+.vscode

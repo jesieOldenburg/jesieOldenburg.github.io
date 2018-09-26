@@ -1,3 +1,6 @@
+@import './partials/nav';
+@import './partials/footer';
+@import  './partials/case-studies';
 // VARIABLES**********************************************************
 $dark-shades: #211E26;
 $dark-accent: #908A81;
@@ -26,9 +29,9 @@ $light-shades: #F5F1EF;
     margin: 15px;
 }
 
-.row.shaded-primary {
-    border-left: solid 10px $primary-color;
-}
+// .row.shaded-primary {
+//     border-left: solid 10px $primary-color;
+// }
 
 div.row.alt-shade {
     background-color: $dark-shades;
@@ -80,13 +83,28 @@ col.alt-shade {
 
 .text-left.section-headings {
     @extend %heading-constants;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .text-right.section-headings {
     @extend %heading-constants;
 }
 // *******************************************************************
+
+//  PROTOTYPE CONTENT 
+  
+P.text-center.prototype-img-desc {
+      font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 61px;
+  background-color: #EA304d;
+  color: white;
+  width: 100%;
+}
+
+
+
 
 // PARAGRAPH STYLES***************************************************
 p {
@@ -144,17 +162,15 @@ ol {
 
 li.li-questions {
     text-transform: uppercase;
-    font-style: oblique;
     font-weight: 900;
-    text-decoration: underline solid #211e26;
-    /* padding: 50px; */
 }
 
 li.li-description {
     list-style: none;
     padding: 0px 0px 30px 50px;
-    margin: 25px 0px 0px 40px;
-    border-left: 5px solid #EA304D;
+    margin: 25px 0px 0px 0px;
+    width: 65%;
+    font-size: 18px;
 }
 
 //BLOCKQUOTE STYLES*************************************************** 
@@ -179,7 +195,7 @@ li.li-description {
 .col.alt-quote {
     background-color: #F5F1EF;
     margin-bottom: 50px;
-    border-left: 20px solid #aa9fa4;
+    // border-left: 20px solid #aa9fa4;
     /* border-right: .5px solid #211e26; */
 }
 

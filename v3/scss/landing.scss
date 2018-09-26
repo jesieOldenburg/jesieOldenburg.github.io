@@ -1,28 +1,29 @@
-#landing-header {
+@import './partials/nav';
+@import './partials/footer';
+
+h1#landing-header {
     color: #F5F1EF;
     background-color: #211E26;
     padding: 0px;
-    margin: 0px;
-    font-size: 56px;
-    margin-bottom: 19px;
+    margin-top: -40px;
+    font-size: 86px;
+    margin-bottom: 100px;
     height: 130px;
+    font-family: Barlow sans-serif;
 }
 
 .jumbotron {
     background-color: #211E26;
     color: #F5F1EF;
     font-size: 18px;
-    height: 470px;
+    height: auto;
 }
 
 .jumbotron-description {
     margin-left: 0px;
-    width: 555; 
-}
-
-.navbar.navbar-light.navbar-expand-md.navigation-clean {
-    background-color: #EA304D;
-    color: #F5F1EF;
+    width: 61%; 
+    font-size: x-large;
+    font-family: Barlow sans-serif;
 }
 
 #Billboard-Button {
@@ -39,6 +40,8 @@ h2 {
     background-color: #F5F1EF;
     padding: 15px;
     padding-bottom: 30px;
+    margin-bottom: 145px;
+    height: 390px;
 }
 
 .text-muted.card-subtitle.mb-2 {
@@ -50,7 +53,10 @@ h2 {
 }
 
 .img-fluid {
-    width: 110px;
+    max-width: 20%;
+  height: auto;
+  margin: auto;
+  display: block;
 }
 
 .intro {
@@ -60,6 +66,7 @@ h2 {
 .projects-horizontal {
     height: auto;
     margin-top: 100px;
+    padding: 150px 0px;
 }
 
 .description {
@@ -97,9 +104,43 @@ div.container.services-container {
     margin-bottom: -75px;
 }
 
+div.social {
+    margin: 30px 0px;
+}
+
+div.footer-basic {
+    height: 300px;
+}
+
+//TECHNOLOGIES*********
+
+body > div.row.photo-gallery {
+    display: flex;
+    // margin-top: 60px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+body > div.row.photo-gallery > div.row.photos > div.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    // margin-top: 90px;
+    width: 15%;
+}
+
+div.row.photos {
+     display: flex;
+    // margin-top: 60px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
 @media only screen and (max-width: 575.98px) {
     .jumbotron {
         height: 520px;
+        width: auto;
     }
 
     h1#landing-header {
@@ -113,6 +154,24 @@ div.container.services-container {
     }
 }
 
+@media only screen and (max-width: 425px) {
+    .jumbotron {
+        height: 520px;
+        width: auto;
+    }
+
+    h1#landing-header {
+        margin-bottom: 90px;
+    }
+
+    .card.landing-cards {
+        background-color: none;
+        border-color: none;
+        margin: auto;
+    }
+}
+
+
 @media only screen and (max-width: 375px) {
     .jumbotron {
         height: auto;
@@ -120,7 +179,8 @@ div.container.services-container {
 
     h1#landing-header {
         font-size: 30px;
-        height: auto;
+        margin-bottom: 25px;
+        height: 100px;
     }
     h2 {
         font-size: 26px;

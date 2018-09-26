@@ -1,3 +1,58 @@
+@import './partials/nav';
+@import './partials/footer';
+
+$dark-shades: #211E26;
+$dark-accent: #908A81;
+$primary-color: #EA304D;
+$light-accent: #AA9FA4;
+$light-shades: #F5F1EF;
+
+body {
+    width: 100%;
+}
+
+.article-list h1 {
+  margin-bottom: 25px;
+  padding-top: 40px;
+  color: inherit;
+  font-family: Barlow SANS-SERIF;
+  font-weight: 100;
+  font-size: 80px;
+}
+
+.project-title {
+    font-family: Barlow sans-serif;
+    font-size: 38px;
+    font-weight: 100;
+    margin: 25px;
+    color: $primary-color;
+
+}
+
+.img-fluid {
+    max-width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.row.articles {
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 45px;
+}
+
+div.row.articles>div {
+    margin: auto;
+}
+
+.article-list .item .description {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  height: 100px;
+}
+
 @media (min-width: 300px) {
     #dp-racing-banner {
         width: 750px;
@@ -12,12 +67,4 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
-}
-
-.row.articles {
-    margin: auto;
-}
-
-div.row.articles>div {
-    margin: auto;
 }

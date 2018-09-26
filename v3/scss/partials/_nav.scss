@@ -1,8 +1,15 @@
+//VARIABLES...........................................................
+$dark-shades: #211E26;
+$dark-accent: #908A81;
+$primary-color: #EA304D;
+$light-accent: #AA9FA4;
+$light-shades: #F5F1EF;
+
 .navigation-clean {
-  background:#fff;
+  background:$primary-color;
   padding-top:.75rem;
   padding-bottom:.75rem;
-  color:#333;
+  color:$light-shades;
   border-radius:0;
   box-shadow:none;
   border:none;
@@ -19,7 +26,7 @@
 .navigation-clean .navbar-brand {
   font-weight:bold;
   color:inherit;
-  margin-left:3px;
+  margin-left:-45px;
 }
 
 .navigation-clean .navbar-brand:hover {
@@ -81,3 +88,9 @@
   color:inherit;
 }
 
+li.nav-item {
+  font-family: Barlow sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 0;
+}

@@ -1,3 +1,6 @@
+@import './partials/nav';
+@import './partials/footer';
+
 // VARIABLES**********************************************************
 $dark-shades: #211E26;
 $dark-accent: #908A81;
@@ -5,21 +8,32 @@ $primary-color: #EA304D;
 $light-accent: #AA9FA4;
 $light-shades: #F5F1EF;
 
-div#contact-header {
-	margin: -70px;
+%main-h1-styles {
+	margin-bottom: 25px;
+	padding-top: 40px;
+	color: inherit;
+	font-family: Barlow SANS-SERIF;
+	font-weight: 100;
+	font-size: 80px;
 }
 
-.navbar.navbar-light.navbar-expand-md.navigation-clean {
-	background-color: #EA304D;
-	color: #F5F1EF;
+div#contact-header {
+	@extend %main-h1-styles;
+	// margin: -70px;
 }
+
+// .navbar.navbar-light.navbar-expand-md.navigation-clean {
+// 	background-color: #EA304D;
+// 	color: #F5F1EF;
+// }
 
 .main-heading {
-	font-family: Barlow, sans-serif;
-	height: 200px;
-	padding-top: 60px;
-	margin-top: 60px;
-	margin-bottom: -49px;
+	@extend %main-h1-styles;
+	// font-family: Barlow, sans-serif;
+	// height: 200px;
+	// padding-top: 60px;
+	// margin-top: 60px;
+	// margin-bottom: -49px;
 }
 
 h4 {
@@ -76,6 +90,8 @@ a.contact-icon {
 	// height: 100%;
 	align-items: center;
 }
+
+
 @media only screen and (max-width: 375px) {
 	h4.link-headings, h4.link-headings.text-center {
 		margin: 25px 5px;

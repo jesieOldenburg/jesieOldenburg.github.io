@@ -1,8 +1,8 @@
 .navigation-clean {
-  background: #fff;
+  background: #EA304D;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  color: #333;
+  color: #F5F1EF;
   border-radius: 0;
   box-shadow: none;
   border: none;
@@ -15,7 +15,7 @@
 .navigation-clean .navbar-brand {
   font-weight: bold;
   color: inherit;
-  margin-left: 3px; }
+  margin-left: -45px; }
 
 .navigation-clean .navbar-brand:hover {
   color: #222; }
@@ -63,6 +63,12 @@
 .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
   background: #eee;
   color: inherit; }
+
+li.nav-item {
+  font-family: Barlow sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 0; }
 
 p {
   font-family: Barlow, sans-serif;

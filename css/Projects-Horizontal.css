@@ -60,3 +60,12 @@
   margin-bottom:0;
 }
 
+@media screen and (max-width: 375px) {
+  .projects-horizontal .intro {
+    font-size:16px;
+    max-width:500px;
+    /* margin:0 auto 10px; */
+    margin: auto;
+    /* margin-top: -115px; */
+  }
+}

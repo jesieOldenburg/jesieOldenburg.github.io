@@ -8,10 +8,6 @@
   border: none;
   margin-bottom: 0; }
 
-@media (min-width: 768px) {
-  .navigation-clean {
-    padding-top: 1rem;
-    padding-bottom: 1rem; } }
 .navigation-clean .navbar-brand {
   font-weight: bold;
   color: inherit;
@@ -70,6 +66,13 @@ li.nav-item {
   font-weight: 100;
   line-height: 0; }
 
+@media (min-width: 768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem; } }
+@media only screen and (max-width: 375px) {
+  .navbar-brand {
+    margin: 0 !important; } }
 .footer-basic {
   height: 300px;
   padding: 40px 0;
@@ -218,7 +221,7 @@ body > div.row.photo-gallery {
   flex-flow: row wrap;
   justify-content: center; }
 
-body > div.row.photo-gallery > div.row.photos > div.item {
+div.row.photos > div.item {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -254,11 +257,21 @@ div.row.photos {
     border-color: none;
     margin: auto; } }
 @media only screen and (max-width: 375px) {
+  .navbar-brand {
+    margin: auto; }
+
   .jumbotron {
     height: auto; }
 
+  p.jumbotron-description {
+    /* margin-left: 0px; */
+    width: 80%;
+    font-size: 15px;
+    font-family: Barlow sans-serif; }
+
   h1#landing-header {
     font-size: 30px;
+    margin-top: auto;
     margin-bottom: 25px;
     height: 100px; }
 
@@ -277,7 +290,8 @@ div.row.photos {
   .card.landing-cards {
     background-color: none;
     border-color: none;
-    margin: auto; }
+    margin: auto;
+    height: auto; }
 
   div.row.card-row > div:nth-child(2) > div {
     margin: 50px 0px; }
@@ -289,6 +303,7 @@ div.row.photos {
     font-size: 14px; }
 
   .projects-horizontal {
+    margin-top: 110px;
     height: auto;
     padding: 74px; }
 
@@ -302,23 +317,22 @@ div.row.photos {
   .row.services-row {
     height: auto; }
 
-  .intro {
-    height: auto;
-    margin-bottom: -55px; }
+  .projects-horizontal.intro {
+    margin-top: 0; }
 
   .row.photos {
     margin: auto;
     display: flex;
     padding: 25px; }
 
-  .img-fluid {
-    width: 50px;
+  .img-fluid.tech-icons {
+    max-width: 2rem;
     margin: auto;
     display: block; }
 
-  div.photo-gallery > div.row.photos > div {
+  div.photo-gallery > div.row.photos > div.item {
     margin: auto;
-    width: auto; }
+    width: 25%; }
 
   div.footer-basic > footer > ul > li > a {
     font-size: 14px; }

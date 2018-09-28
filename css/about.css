@@ -8,10 +8,6 @@
   border: none;
   margin-bottom: 0; }
 
-@media (min-width: 768px) {
-  .navigation-clean {
-    padding-top: 1rem;
-    padding-bottom: 1rem; } }
 .navigation-clean .navbar-brand {
   font-weight: bold;
   color: inherit;
@@ -70,6 +66,13 @@ li.nav-item {
   font-weight: 100;
   line-height: 0; }
 
+@media (min-width: 768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem; } }
+@media only screen and (max-width: 375px) {
+  .navbar-brand {
+    margin: 0 !important; } }
 p {
   font-family: Barlow, sans-serif;
   width: 80%;

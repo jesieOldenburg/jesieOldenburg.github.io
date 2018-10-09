@@ -92,6 +92,11 @@ h2 {
     color: #EA304D;
 }
 
+ion-icon.icon-large.hydrated {
+  position: absolute;
+  bottom: -80px;
+}
+
 .row.card-row {
     flex-wrap: nowrap;
     width: auto;

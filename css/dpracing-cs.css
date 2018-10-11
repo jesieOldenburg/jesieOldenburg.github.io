@@ -144,10 +144,6 @@ li.nav-item {
   margin-top: 20px;
   background-color: #f5f1ef; }
 
-/* .article-clean .intro p {
-  color:#929292;
-  font-size:12px;
-} */
 .article-clean .intro p .by {
   font-style: italic; }
 
@@ -188,18 +184,17 @@ li.nav-item {
   margin: 0 auto 30px; }
 
 .article-clean .intro h1 {
-  font-size: 80px;
+  font-size: 50px;
   margin-bottom: 15px;
   padding-top: 20px;
   line-height: 1.5;
   color: inherit;
   margin-top: 20px; }
 
-/* 
-.article-clean .intro p {
-    color: #929292;
-    font-size: 12px;
-} */
+caption {
+  font-size: 16px;
+  font-family: Barlow, sans-serif; }
+
 .article-clean .intro p .by {
   font-style: italic; }
 
@@ -226,17 +221,27 @@ li.nav-item {
   margin-bottom: 12px;
   max-width: 100%; }
 
+li.mvp-bullet {
+  font-size: 18px;
+  font-family: Barlow, sans-serif;
+  line-height: 2;
+  list-style-type: circle; }
+
+#wyfy-chal-statement {
+  font-size: 20px;
+  line-height: 2.3; }
+
 .text-center.section-headings, .text-left.section-headings, .text-right.section-headings {
   font-weight: 200;
   font-family: Barlow, sans-serif;
   font-size: 44px;
   width: auto;
-  text-decoration: underline double #EA304D; }
+  color: #EA304D; }
 
 p, p.text-left, p.text-right, p.text-center {
   font-size: 16px;
   font-family: Barlow, sans-serif;
-  margin: 50px 0px;
+  margin: 15px 0px;
   line-height: 2.0;
   width: 60%; }
 
@@ -279,7 +284,7 @@ div.row.alt-shade {
   margin-bottom: 50px; }
 
 .text-left.section-headings {
-  margin-top: 70px; }
+  margin-top: 60px; }
 
 P.text-center.prototype-img-desc {
   font-size: 1.3rem;
@@ -318,11 +323,6 @@ p.tech-desc-alt {
 
 div.col.table {
   padding: 50px 50px; }
-
-li {
-  font-size: 22px;
-  font-family: Barlow, sans-serif;
-  line-height: 2; }
 
 ol {
   padding: 0px 25px 50px; }
@@ -390,6 +390,11 @@ div.col.tech-col {
 #dp-racing-banner {
   width: 950px;
   height: auto; }
+
+#wyfy-banner {
+  max-width: 50%;
+  height: auto;
+  margin: 15px; }
 
 @media (max-width: 375px) {
   p, p.right, .text-right.alt-shade {

@@ -21,11 +21,6 @@
 }
 
 
-/* .article-clean .intro p {
-  color:#929292;
-  font-size:12px;
-} */
-
 .article-clean .intro p .by {
     font-style: italic;
 }
@@ -75,7 +70,7 @@
 }
 
 .article-clean .intro h1 {
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 15px;
     padding-top: 20px;
     line-height: 1.5;
@@ -83,12 +78,10 @@
     margin-top: 20px;
 }
 
-
-/* 
-.article-clean .intro p {
-    color: #929292;
-    font-size: 12px;
-} */
+caption {
+    font-size: 16px;
+    font-family: Barlow, sans-serif;
+}
 
 .article-clean .intro p .by {
     font-style: italic;
@@ -120,4 +113,20 @@
 .article-clean .text figure img {
     margin-bottom: 12px;
     max-width: 100%;
+}
+
+li.mvp-bullet {
+    font-size: 18px;
+    font-family: Barlow, sans-serif;
+    line-height: 2;
+    list-style-type: circle;
+}
+
+#wyfy-chal-statement {
+    font-size: 20px;
+    line-height: 2.3;
+}
+
+#challenge-statement-container {
+
 }

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWO Wyfy Case Study</title>
+    <link rel="stylesheet" href="../../css/codeblocks.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css?h=bef8a4c9c6dc9231f6046f6a301f4c3a">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+    <link rel="stylesheet" href="../../css/Article-Clean-1.css?h=753c352985acfbb39943a6dc545811ad">
+    <link rel="stylesheet" href="../../css/Article-Clean.css?h=7e098697cdd39ab15a49cca1d04416b2">
+    <link rel="stylesheet" href="../../css/Article-List.css?h=200888d5d201734407025bdd320f06bf">
+    <link rel="stylesheet" href="../../css/Contact-Form-Clean.css?h=7a148c6d2a3f4a6e255d10cfbca60f47">
+    <link rel="stylesheet" href="../../css/dpracing-cs.css?h=883cb5a960e1e4aecd06fab39c0b6a8f">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="../../css/Social-Icons.css?h=035cacefd1468c5a648b11c8fedd14bb">
+</head>
+
+<body onload="PR.prettyPrint()">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="../../index.html">Jesie Oldenburg</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../projects.html">Projects</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../about.html">About Me</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../contact.html" style="color:#F5F1EF;">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <div class="article-clean">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2 d-flex flex-column align-items-center">
+                    <div class="intro" style="margin-bottom:-35px;">
+                        <h1 class="text-center h1">Case Study: WyFy</h1>
+                    </div><img class="img-fluid" src="../../assets/img/wyfy-logo2.png" id="wyfy-banner">
+                </div>
+            </div>
+
+                <div class="row proj-overview">
+                    <div class="col">
+                        <h2 class="text-center section-headings">Project Overview</h2>
+                        <p class="proj-overview-text">
+                            Given a dataset from Nashville's open data portal, my team was tasked with creating an application for Nashville residents to find free municipal wifi hotspots.  As Nashville residents ourselves this project was extremely important to us as it gave us the opportunity to give back to the community we know and love.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row double">
+                    <!-- Roles-->
+                    <div class="col half">
+                        <h2 class="text-left section-headings">My Roles</h2>
+                        <p>
+                            At the kickoff of our project, all 7 members of our team filled the role of UX designer.  Once the discovery and definition phases were finished the team branched off into our alternate roles. I assumed responsibility for the functionality of our app's map,  login modal, and alert components.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                     <div class="col" id="moving-card">
+                        <h2 class="text-left section-headings">Project Timeline</h2>
+                        <p class="text-left">
+                            One week was the designated timeline for this project. This caused the entire team to place more emphasis than usual on the UX process of our application to ensure as many questions were answered prior to beginning development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-left section-headings">MVP Goals</h2>
+                        <ol>
+                            <li>
+                                Use geolocation to find a user’s current location.
+                            </li>
+                            <li>
+                                Display an Interactive Map showing Nashville-Davidson Co Metro Wifi Locations.
+                            </li>
+                            <li>
+                                Results from all Datasets display in a map/list split view.
+                            </li>
+                            <li>
+                                Expandable location details
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-left section-headings">Our Users</h2>
+                        <p class="text-left">
+                            With all 7 members of our team lending their UX skills during the initial design phases we were able to discover insights and define a concise challenge statement. Our design process of conducting user research, affinity clustering, and journey mapping helped us develop a primary and alternate persona.
+                        </p>
+                    </div>
+                    
+                    <div class="col">
+                        <h2 class="text-left section-headings">
+                            Challenge Statement
+                        </h2>
+                        <p class="text-uppercase text-left">
+                            How might we...<br>
+                            Allow a user the ability to discover local wi-fi resources from Nashville’s Open Data Portal based on their current location.
+                        </p>
+                    </div>
+                </div>
+
+<!-- Code and Data.................................................................................................................................... -->
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-left section-headings">Code &amp; Data</h2>
+                        <p class="text-left">
+                            I made the decision to use the <a href="https://cloud.google.com/maps-platform/"><code>Google maps API</code></a> in conjunction with the npm package <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/google-map-react"><code>google-maps-react</code></a> based on several factors. Google maps proved to be the most used map application by our users based on our team's user research. This meant creating an interface with familiar tech for our users.  From a development standpoint, google-maps-react allowed me to efficiently integrate the Google maps API with our React app. Finally, being able to reference both Google's and google-maps-react thorough documentation allowed me to quickly solve any issues I encountered during my development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="text-left">
+                            With all dependencies in place, I began developing the app's map component.  The initial component rendered a Google Map at country level zoom value and no markers.   By specifying a value for the Map element's zoom attribute  I was able to adjust the zoom value to display at a city level.  Using the <code>Marker</code> element from <code>google-maps-react</code> I was able to render a marker to ensure functionality.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <pre class="prettyprint lang-js ">
+    import {GoogleApiWrapper, Map, Marker} from 'google-maps-react';
+    import React, {Component} from 'react';
+    var API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX';
+
+    export class MapContainer extends Component {
+      render() {
+        return (
+          &ltMap google={this.props.google} zoom={14}&gt
+            &ltMarker name={'Current location'} /&gt
+          &lt/Map&gt
+        );
+      }
+    }
+
+    export default GoogleApiWrapper({
+    apiKey: (API_KEY)
+    })(MapContainer) 
+                        </pre>
+                        <caption>The initial <code>google-maps-react</code>component</caption>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="text-left">
+                            Once our data team pulled in location data from our open data API, I paired up with a teammate to peer code in an attempt to buy our team some time.  Two heads are better than one, and together we developed a functional map component with accurate location markers which our dev team could adjust as required.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="text-left">
+                            The next component on my issue list was a user login displayed in a modal element.  Our team decided during planning to use a  component library as this would save crucial time during development.  Using reactstrap, I was able to quickly render a modal for users to enter their login info.
+                        </p>
+                    </div>
+                </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <pre class="prettyprint lang-js">
+    import React from 'react';
+    import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+
+    class LandingModal extends React.Component {
+      constructor(props) {
+        super(props);
+        
+        this.state = {
+          modal: false
+        };
+        
+        this.toggle = this.toggle.bind(this);
+        }
+        
+        toggle() {
+          this.setState({
+            modal: !this.state.modal
+          });
+        }
+
+        render() {
+          return (
+            &ltdiv&gt
+              &ltButton color="danger" onClick={this.toggle}&gt{this.props.buttonLabel}&lt/Button&gt
+                &ltModal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}&gt
+                  &ltModalHeader toggle={this.toggle}&gtModal title&lt/ModalHeader&gt
+                  &ltModalBody&gt
+                    &lt!-- BODY OF MODAL HERE --&gt
+                  &lt/ModalBody&gt
+                  &ltModalFooter&gt
+                    &ltButton color="primary" onClick={this.toggle}&gtDo Something&lt/Button&gt{' '}
+                    &ltButton color="secondary" onClick={this.toggle}&gtCancel&lt/Button&gt
+                  &lt/ModalFooter&gt
+                &lt/Modal&gt
+            &lt/div&gt
+          );
+        }
+    }
+    export default ModalExample; 
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-left">
+                                Once our team had user geolocation functional I had to add state to the component to ensure that the modal displayed alerting users that the app requires access to their device's location services.  Assigning the modal property a true value ensured that the modal render's on page load. Once a user clicks the "Got it!" button, their location is received by our application, and a map renders displaying nearby wifi hotspots.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <pre class="prettyprint lang-js">
+    constructor(props) {
+      super(props);       
+      this.state = {      
+        modal: true        // Renders modal on page load 
+        geolocated:false,  /* Location properties will update once the Geolocation
+        latitude: null,       function is called when user clicks "Got it!" button. */
+        longitude:null     
+      };      
+    };                                
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-left">
+                                Finally, I was required to create an alert component which prompts users to enable the wifi on their device once logged in.  Users should see the alert as soon as the app renders, and the alert should disappear after a few seconds.  I imported an alert component from reactstrap's awesome component library and began to tailor it to suit our user's needs.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <pre class="prettyprint lang-js">
+    import React, {Component} from 'react';
+    import { Alert } from 'reactstrap';
+    
+    class Reminder extends Component {
+      render (){
+        return (
+          &ltdiv&gt
+            &ltAlert color="success"&gt
+              Please ensure your wifi is turned on!
+            &lt/Alert&gt
+          &lt/div&gt
+        )
+      }
+    }
+    export default Reminder; 
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-left">
+                                The initial component was a good starting point but it needed a few changes in order to meet our team's design intent.  Knowing that the alert should render on app load I began by adding state to the alert.  In addition to adding state, I built a function to handle when a user dismisses the alert.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <pre class="prettyprint lang-js">
+    class Reminder extends React.Component {
+      constructor(props) {
+        super(props);
+
+        this.state = {
+          visible: true
+        }; // Displays alert on page render
+
+        this.onDismiss = this.onDismiss.bind(this);
+      } 
+
+      // Event listener to close wifi reminder alert.
+      onDismiss () {
+        this.setState({ visible: false });
+      }
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-left">
+                                The last requirement for the alert was ensuring it disappeared after a set time.  This was to ensure that the alert was visible however not persistent. Using the setTimeout method inside of React's lifecycle hook ComponentDidMount, I was able to declare a set time that the alert should be visible. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <pre class="prettyprint lang-js">
+    componentDidMount (){
+      setTimeout(() => {
+        this.setState({ visible: false });     
+      }, 5000)
+    }
+                            </pre>
+                        </div>
+                    </div>
+<!-- LESSONS LEARNED.................................................................................................................................. -->
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-left section-headings">Lessons Learned</h2>
+                        <p>
+                            When the project was completed I was not short on fresh knowledge. From integrating with Firebase to user interviews, this project came chock full of lessons. While there are many, I'll focus on my top three:
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-left section-headings" style="margin-top: -30px;">Closing</h2>
+                        <p>
+                            This project was full of experience for me and I learned crucial lessons every step of the way. From AJAX calls with jQuery, task running with Grunt, or conducting user research to develop a persona, my knowledge grew immensley during this project.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+        <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://dribbble.com/jesieOldenburg"><ion-icon name="logo-dribbble"></ion-icon></a>
+                <a href="https://github.com/jesieOldenburg"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/jesieoldenburg"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="mailto:kitglo46@gmail.com?"><ion-icon name="mail"></ion-icon></a>
+                <!-- <a href="#"></a>
+                <a href="#"></a> -->
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="../../index.html">Home</a></li>
+                <li class="list-inline-item"><a href="../projects.html" class="projects-footer-link">Projects</a></li>
+                <li class="list-inline-item"><a href="../about.html">About Me</a></li>
+                <li class="list-inline-item"><a href="../contact.html">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="../assets/js/jquery.min.js?h=f2f87b58be0d57ecf71ada8df361a2d9"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/prettify.js"></script>
+    <!-- <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/prettify.js></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="../assets/js/Paralax-Hero-Banner.js?h=e4189e92244721b1a77b8f8d1d0bbc23"></script>
+    <script src="../assets/js/Simple-Slider.js?h=df0233e38c69d965b7833f56606b8826"></script>
+    <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+</body>
+
+</html>

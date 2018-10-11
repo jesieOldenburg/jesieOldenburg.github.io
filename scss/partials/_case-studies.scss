@@ -75,7 +75,7 @@
 }
 
 .article-clean .intro h1 {
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 15px;
     padding-top: 20px;
     line-height: 1.5;
@@ -83,7 +83,10 @@
     margin-top: 20px;
 }
 
-
+caption {
+    font-size: 16px;
+    font-family: Barlow, sans-serif;
+}
 /* 
 .article-clean .intro p {
     color: #929292;

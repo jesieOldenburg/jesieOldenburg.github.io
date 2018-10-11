@@ -14,13 +14,14 @@ $light-shades: #F5F1EF;
     font-family: Barlow, sans-serif;
     font-size: 44px;
     width: auto;
-    text-decoration: underline double $primary-color;
+    color: $primary-color;
+    // text-decoration: underline solid $primary-color;
 }
 
 %p-standard-style {
     font-size: 16px;
     font-family: Barlow, sans-serif;
-    margin: 50px 0px;
+    margin: 15px 0px;
     line-height: 2.0;
     width: 60%;
 }
@@ -28,10 +29,6 @@ $light-shades: #F5F1EF;
 .row {
     margin: 15px;
 }
-
-// .row.shaded-primary {
-//     border-left: solid 10px $primary-color;
-// }
 
 div.row.alt-shade {
     background-color: $dark-shades;
@@ -83,7 +80,7 @@ col.alt-shade {
 
 .text-left.section-headings {
     @extend %heading-constants;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .text-right.section-headings {
@@ -102,8 +99,6 @@ P.text-center.prototype-img-desc {
   color: white;
   width: 100%;
 }
-
-
 
 
 // PARAGRAPH STYLES***************************************************
@@ -239,6 +234,11 @@ div.col.tech-col {
 
 #dp-racing-banner {
     width: 950px;
+    height: auto;
+}
+
+#wyfy-banner {
+    max-width: 50%;
     height: auto;
 }
 

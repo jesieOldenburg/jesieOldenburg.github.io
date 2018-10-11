@@ -115,7 +115,7 @@
                     <div class="col">
                         <h2 class="text-left section-headings">Code &amp; Data</h2>
                         <p class="text-left">
-                            I made the decision to use the <a href="https://cloud.google.com/maps-platform/"><code>Google maps API</code></a> in conjunction with the npm package <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/google-map-react"><code>google-maps-react</code></a> based on several factors. Google maps proved to be the most used map application by our users based on our team's user research. This meant creating an interface with familiar tech for our users.  From a development standpoint, google-maps-react allowed me to efficiently integrate the Google maps API with our React app. Finally, being able to reference both Google's and google-maps-react thorough documentation allowed me to quickly solve any issues I encountered during my development.
+                            I made the decision to use the <a href="https://cloud.google.com/maps-platform/"><code>Google maps API</code></a> in conjunction with the npm package <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/google-map-react"><code>google-maps-react</code></a> based on several factors. Google maps proved to be the most used map application by our users based on our team's user research. This meant creating an interface with familiar tech for our users.  From a development standpoint, <code>google-maps-react</code> allowed me to efficiently integrate the Google maps API with our React app. Finally, being able to reference both Google's and <code>google-maps-react</code> thorough documentation allowed me to quickly solve any issues I encountered during my development.
                         </p>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                 <div class="row">
                     <div class="col">
                         <p class="text-left">
-                            Once our data team pulled in location data from our open data API, I paired up with a teammate to peer code in an attempt to buy our team some time.  Two heads are better than one, and together we developed a functional map component with accurate location markers which our dev team could adjust as required.
+                            Once our data team pulled in location data from our open data API, I paired up with a teammate to peer code in an attempt to buy our team some time.  Two heads are better than one, and together we developed a functional map component with accurate location markers which our dev team could adjust as required.  Taking an array of locations pulled from the open data API and using the <code>.map()</code> method ensured the locations were plotted correctly, and the data in the array remained unchanged.
                         </p>
                     </div>
                 </div>
@@ -318,22 +318,44 @@
                             </pre>
                         </div>
                     </div>
-<!-- LESSONS LEARNED.................................................................................................................................. -->
 
-                <div class="row">
-                    <div class="col">
-                        <h2 class="text-left section-headings">Lessons Learned</h2>
-                        <p>
-                            When the project was completed I was not short on fresh knowledge. From integrating with Firebase to user interviews, this project came chock full of lessons. While there are many, I'll focus on my top three:
-                        </p>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-left">
+                                With the timeout function in place, it was time to set the values of the components props.  Adding isOpen={this.state.visible} to the element allowed its visibility to be controlled by the local state.  Finally, adding the toggle={this.onDismiss} assigned the dismiss button's functionality to the component.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
+                    <div class="row">
+                        <div class="col">
+                            <pre class="prettyprint lang-js">
+    render () {
+      return (
+        &ltdiv&gt
+          &ltAlert color="success" isOpen={this.state.visible} toggle={this.onDismiss}&gt
+            Please ensure your wifi is on!
+          &lt/Alert&gt
+        &lt/div&gt
+      )
+    }
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-left">
+                                With the functionality requirements of the alert complete, I turned to my teammates to help with their components.  The deadline was close and every member of the team was giving it their all.  After some final style adjustments to polish the app our team lead declared that we had hit our MVP! 
+                            </p>
+                        </div>
+                    </div>
+<!-- LESSONS LEARNED.................................................................................................................................. -->
                 <div class="row">
                     <div class="col">
                         <h2 class="text-left section-headings" style="margin-top: -30px;">Closing</h2>
                         <p>
-                            This project was full of experience for me and I learned crucial lessons every step of the way. From AJAX calls with jQuery, task running with Grunt, or conducting user research to develop a persona, my knowledge grew immensley during this project.
+                            When the project was complete I was not short on fresh knowledge.  Integrating with the Google Maps API was another lesson in how to leverage powerful third-party tech in applications.  Building the app with Reactjs taught me countless lessons and helped familiarize me with the framework.  Finally, the importance of a deliberate and thorough UX/UI design process prior to development was reinforced in my mind.  From the user interviews I conducted, to the affinity clusters and journey maps I built in hand with my team, the insights we gathered were crucial in developing an app for our city and its amazing users!
                         </p>
                     </div>
                 </div>

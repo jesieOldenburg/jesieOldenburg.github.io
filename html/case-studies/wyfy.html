@@ -52,18 +52,18 @@
                     </div>
                 </div>
 
-                <div class="row double">
+                <div class="row">
                     <!-- Roles-->
-                    <div class="col half">
+                    <div class="col">
                         <h2 class="text-left section-headings">My Roles</h2>
-                        <p>
+                        <p class="text-left">
                             At the kickoff of our project, all 7 members of our team filled the role of UX designer.  Once the discovery and definition phases were finished the team branched off into our alternate roles. I assumed responsibility for the functionality of our app's map,  login modal, and alert components.
                         </p>
                     </div>
                 </div>
 
                 <div class="row">
-                     <div class="col" id="moving-card">
+                     <div class="col">
                         <h2 class="text-left section-headings">Project Timeline</h2>
                         <p class="text-left">
                             One week was the designated timeline for this project. This caused the entire team to place more emphasis than usual on the UX process of our application to ensure as many questions were answered prior to beginning development.
@@ -74,20 +74,20 @@
                 <div class="row">
                     <div class="col">
                         <h2 class="text-left section-headings">MVP Goals</h2>
-                        <ol>
-                            <li>
+                        <ul class="mvp-list">
+                            <li class="mvp-bullet">
                                 Use geolocation to find a user’s current location.
                             </li>
-                            <li>
+                            <li class="mvp-bullet">
                                 Display an Interactive Map showing Nashville-Davidson Co Metro Wifi Locations.
                             </li>
-                            <li>
+                            <li class="mvp-bullet">
                                 Results from all Datasets display in a map/list split view.
                             </li>
-                            <li>
+                            <li class="mvp-bullet">
                                 Expandable location details
                             </li>
-                        </ol>
+                        </ul>
                     </div>
                 </div>
                 
@@ -99,11 +99,11 @@
                         </p>
                     </div>
                     
-                    <div class="col">
+                    <div class="col" id="challenge-statement-container">
                         <h2 class="text-left section-headings">
                             Challenge Statement
                         </h2>
-                        <p class="text-uppercase text-left">
+                        <p class="text-uppercase text-left" id="wyfy-chal-statement">
                             How might we...<br>
                             Allow a user the ability to discover local wi-fi resources from Nashville’s Open Data Portal based on their current location.
                         </p>
@@ -115,7 +115,7 @@
                     <div class="col">
                         <h2 class="text-left section-headings">Code &amp; Data</h2>
                         <p class="text-left">
-                            I made the decision to use the <a href="https://cloud.google.com/maps-platform/"><code>Google maps API</code></a> in conjunction with the npm package <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/google-map-react"><code>google-maps-react</code></a> based on several factors. Google maps proved to be the most used map application by our users based on our team's user research. This meant creating an interface with familiar tech for our users.  From a development standpoint, <code>google-maps-react</code> allowed me to efficiently integrate the Google maps API with our React app. Finally, being able to reference both Google's and <code>google-maps-react</code> thorough documentation allowed me to quickly solve any issues I encountered during my development.
+                            I made the decision to use the <a target="_blank" rel="noopener noreferrer" href="https://cloud.google.com/maps-platform/"><code>Google maps API</code></a> in conjunction with the npm package <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/google-map-react"><code>google-maps-react</code></a> based on several factors. Google maps proved to be the most used map application by our users based on our team's user research. This meant creating an interface with familiar tech for our users.  From a development standpoint, <code>google-maps-react</code> allowed me to efficiently integrate the Google maps API with our React app. Finally, being able to reference both Google's and <code>google-maps-react</code> thorough documentation allowed me to quickly solve any issues I encountered during my development.
                         </p>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
                 <div class="row">
                     <div class="col">
                         <p class="text-left">
-                            The next component on my issue list was a user login displayed in a modal element.  Our team decided during planning to use a  component library as this would save crucial time during development.  Using reactstrap, I was able to quickly render a modal for users to enter their login info.
+                            The next component on my issue list was a user login displayed in a modal element.  Our team decided during planning to use a  component library as this would save crucial time during development.  Using <a target="_blank" rel="noopener noreferrer" href="https://reactstrap.github.io">reactstrap</a>, I was able to quickly render a modal for users to enter their login info.
                         </p>
                     </div>
                 </div>
@@ -353,8 +353,8 @@
 <!-- LESSONS LEARNED.................................................................................................................................. -->
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-left section-headings" style="margin-top: -30px;">Closing</h2>
-                        <p>
+                        <h2 class="text-left section-headings">Closing</h2>
+                        <p class="text-left">
                             When the project was complete I was not short on fresh knowledge.  Integrating with the Google Maps API was another lesson in how to leverage powerful third-party tech in applications.  Building the app with Reactjs taught me countless lessons and helped familiarize me with the framework.  Finally, the importance of a deliberate and thorough UX/UI design process prior to development was reinforced in my mind.  From the user interviews I conducted, to the affinity clusters and journey maps I built in hand with my team, the insights we gathered were crucial in developing an app for our city and its amazing users!
                         </p>
                     </div>

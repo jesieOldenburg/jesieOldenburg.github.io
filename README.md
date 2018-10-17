@@ -5,7 +5,7 @@ Looking for my deployed portfolio? No problem, just click [here](https://jesieol
 
 ## TOC
 * [About Me](#about-me)
-* [Links](#links)
+* [Links](#check-out-my-links!)
 * [Built With](#built-with)
 * [Tech I Use](#tech-i-use)
 * [Get In Touch](#get-in-touch)

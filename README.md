@@ -16,10 +16,8 @@ I'm a UI/UX designer & front-end developer. I'm crazy about making software and 
 I constantly strive to improve my skills and realize that there is no ceiling to my knowledge. I will never use a progress bar to measure my skills, as I can always be improving my craft. While I may be skilled in a particular scope, I always push the boundaries of what I know and challenge myself to grow as both a designer and developer. I genuinely enjoy keeping up with trends, learning about the latest tech, and experimenting with new techniques.
 
 ## Links
-### LinkedIn
 [LinkedIn](https://www.linkedin.com/in/jesieoldenburg/)
 
-### Dribbble
 [Dribbble](https://dribbble.com/jesieOldenburg)
 
 ## Tech I Use

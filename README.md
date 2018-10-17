@@ -20,29 +20,11 @@ I constantly strive to improve my skills and realize that there is no ceiling to
 [LinkedIn](https://www.linkedin.com/in/jesieoldenburg/)
 
 ### Dribbble
-![](https://github.com/jesieOldenburg/jesieOldenburg.github.io/blob/master/img/icons/dribbble.png)
+[Dribbble](https://dribbble.com/jesieOldenburg)
 
 ## Tech I Use
-
-Development
-HTML5 
-CSS3 
-JavaScript(ES6)
-React JS
-Slack 
-Grunt
-Sass
-Browserify
-Jquery
-Slack
-Git
-Firebase
-parseDB
+#### Development
+HTML5 - CSS3 - JavaScript(ES6) - React JS - Slack - Grunt - Sass - Browserify - Jquery - Git - Firebase - parseDB
 
 #### Design
-Sketch
-Affinity Photo
-Affinity Designer
-Zeplin
-Adobe InDesign
-inVision
+Sketch - Affinity Photo - Affinity Designer - Zeplin - Adobe InDesign - inVision

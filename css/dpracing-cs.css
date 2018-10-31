@@ -221,6 +221,13 @@ caption {
   margin-bottom: 12px;
   max-width: 100%; }
 
+ul.insight-list {
+  font-size: 20px;
+  font-family: Barlow, sans-serif;
+  margin: auto;
+  width: 52%;
+  padding: 30px 0px; }
+
 li.mvp-bullet {
   font-size: 18px;
   font-family: Barlow, sans-serif;
@@ -230,6 +237,12 @@ li.mvp-bullet {
 #wyfy-chal-statement {
   font-size: 20px;
   line-height: 2.3; }
+
+div.row.code-row {
+  margin: auto; }
+
+div.col.code-col {
+  margin: auto; }
 
 .text-center.section-headings, .text-left.section-headings, .text-right.section-headings {
   font-weight: 200;
@@ -359,13 +372,6 @@ p.text-center.q-and-a {
   text-align: center;
   margin: auto;
   padding: 30px 30px; }
-
-ul.insight-list {
-  font-size: 20px;
-  font-family: Barlow, sans-serif;
-  margin: auto;
-  width: 52%;
-  padding: 30px 0px; }
 
 .col.alt-quote {
   background-color: #F5F1EF;

@@ -1,6 +1,7 @@
 @import './partials/nav';
 @import './partials/footer';
 @import  './partials/case-studies';
+@import  './partials/code-blocks';
 // VARIABLES**********************************************************
 $dark-shades: #211E26;
 $dark-accent: #908A81;
@@ -192,13 +193,7 @@ p.text-center.q-and-a {
 
 // *******************************************************************
 
-ul.insight-list {
-    font-size: 20px;
-    font-family: Barlow, sans-serif;
-    margin: auto;
-    width: 52%;
-    padding: 30px 0px;
-}
+
 
 
 .col.alt-quote {

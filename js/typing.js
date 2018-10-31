@@ -8,7 +8,7 @@ var options = {
   typeSpeed: 60,
   smartBackspace: true,
   loop: true,
-  backDelay: 700,
+  backDelay: 2500,
 }
 
 var typed = new Typed(".typed-element", options);

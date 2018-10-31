@@ -13,15 +13,17 @@ $light-shades: #F5F1EF;
     font-weight: 200;
     font-family: Barlow, sans-serif;
     font-size: 44px;
-    width: auto;
+    width: 60%;
     color: $primary-color;
+    margin: auto;
+    padding-bottom: 20px;
     // text-decoration: underline solid $primary-color;
 }
 
 %p-standard-style {
     font-size: 16px;
     font-family: Barlow, sans-serif;
-    margin: 15px 0px;
+    margin: auto;
     line-height: 2.0;
     width: 60%;
 }
@@ -163,6 +165,15 @@ li.li-description {
 }
 
 //BLOCKQUOTE STYLES*************************************************** 
+div.row.q-and-a{
+    margin: 40px 0px;
+}
+
+p.text-center.q-and-a {
+    @extend %p-standard-style;
+    font-size: 26px;
+    color: $primary-color;
+}
 
 .blockquote.alt-quote {
     font-size: 1.5em;
@@ -180,6 +191,15 @@ li.li-description {
 }
 
 // *******************************************************************
+
+ul.insight-list {
+    font-size: 20px;
+    font-family: Barlow, sans-serif;
+    margin: auto;
+    width: 52%;
+    padding: 30px 0px;
+}
+
 
 .col.alt-quote {
     background-color: #F5F1EF;

@@ -47,7 +47,7 @@
                     <div class="col">
                         <h2 class="text-center section-headings">Project Overview</h2>
                         <p class="proj-overview-text">
-                            Given a dataset from Nashville's open data portal, my team was tasked with creating an application for Nashville residents to find free municipal wifi hotspots.  As Nashville residents ourselves this project was extremely important to us as it gave us the opportunity to give back to the community we know and love.
+                            As a class project at Nashville Software School, my team was given a dataset from Nashville's open data portal. We were tasked with creating an application for Nashville residents to find free municipal wifi hotspots. As Nashville residents ourselves this project gave us the opportunity to give back to the community we know and love.
                         </p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                      <div class="col">
                         <h2 class="text-left section-headings">Project Timeline</h2>
                         <p class="text-left">
-                            One week was the designated timeline for this project. This caused the entire team to place more emphasis than usual on the UX process of our application to ensure as many questions were answered prior to beginning development.
+                            One week was the designated timeline for this project. This caused the entire team to place more emphasis than other class projects on the UX process of our application to ensure as many questions were answered prior to beginning development.
                         </p>
                     </div>
                 </div>
@@ -74,17 +74,17 @@
                 <div class="row">
                     <div class="col">
                         <h2 class="text-left section-headings">MVP Goals</h2>
-                        <ul class="mvp-list">
-                            <li class="mvp-bullet">
+                        <ul class="insight-list">
+                            <li class="insight-item">
                                 Use geolocation to find a user’s current location.
                             </li>
-                            <li class="mvp-bullet">
+                            <li class="insight-item">
                                 Display an Interactive Map showing Nashville-Davidson Co Metro Wifi Locations.
                             </li>
-                            <li class="mvp-bullet">
+                            <li class="insight-item">
                                 Results from all Datasets display in a map/list split view.
                             </li>
-                            <li class="mvp-bullet">
+                            <li class="insight-item">
                                 Expandable location details
                             </li>
                         </ul>
@@ -98,18 +98,19 @@
                             With all 7 members of our team lending their UX skills during the initial design phases we were able to discover insights and define a concise challenge statement. Our design process of conducting user research, affinity clustering, and journey mapping helped us develop a primary and alternate persona.
                         </p>
                     </div>
-                    
-                    <div class="col" id="challenge-statement-container">
+                </div>
+
+                <div class="row">
+                    <div class="col" >
                         <h2 class="text-left section-headings">
                             Challenge Statement
                         </h2>
                         <p class="text-uppercase text-left" id="wyfy-chal-statement">
-                            How might we...<br>
+                            <strong>How might we...</strong><br>
                             Allow a user the ability to discover local wi-fi resources from Nashville’s Open Data Portal based on their current location.
                         </p>
                     </div>
                 </div>
-
 <!-- Code and Data.................................................................................................................................... -->
                 <div class="row">
                     <div class="col">
@@ -128,8 +129,8 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col">
+                <div class="row code-row">
+                    <div class="col code-col">
                         <pre class="prettyprint lang-js ">
     import {GoogleApiWrapper, Map, Marker} from 'google-maps-react';
     import React, {Component} from 'react';
@@ -149,7 +150,7 @@
     apiKey: (API_KEY)
     })(MapContainer) 
                         </pre>
-                        <caption>The initial <code>google-maps-react</code>component</caption>
+
                     </div>
                 </div>
 

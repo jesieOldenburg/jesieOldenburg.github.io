@@ -182,6 +182,9 @@ h2 {
   margin-top: 100px;
   padding: 150px 0px; }
 
+p.landing-subhead.text-center {
+  font-size: 24px; }
+
 .description {
   color: #F5F1EF; }
 
@@ -219,6 +222,22 @@ div.social {
 
 div.footer-basic {
   height: 300px; }
+
+div.row.nested-projects {
+  display: flex; }
+
+.dp-racing-img-anchor {
+  width: 100%;
+  height: auto; }
+
+#dp-racing-logo {
+  width: 120%;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  margin-left: -62px;
+  margin-top: -20px; }
 
 body > div.row.photo-gallery {
   display: flex;

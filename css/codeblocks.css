@@ -1,6 +1,6 @@
 /* desert scheme ported from vim to google prettify */
 pre.prettyprint { display: block; background-color: #333;   padding: 20px 10px 10px 0px;   width: 66%;
-  border-radius: 10px;}
+  border-radius: 10px; margin:auto; margin-top: 40px; margin-bottom: 40px;}
 pre .nocode { background-color: none; color: #000 }
 pre .str { color: #ffa0a0 } /* string  - pink */
 pre .kwd { color: #f0e68c; font-weight: bold }
